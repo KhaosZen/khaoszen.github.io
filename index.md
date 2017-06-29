@@ -3,8 +3,8 @@ layout: default
 ---
 
 ```c++
-include <iostream>
-using name space std
+#include <iostream>
+using name space std;
 int main(){  
 	cout<<"hello world!"<<endl;
 	return 0;
