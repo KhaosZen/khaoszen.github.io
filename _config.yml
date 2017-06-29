@@ -3,4 +3,5 @@ description: Welcome to my house!
 show_downloads: false
 google_analytics:
 theme:
-comments: true
+comment: 
+    disqus: khaoszen
