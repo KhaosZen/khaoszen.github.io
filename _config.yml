@@ -1,9 +1,5 @@
----
-title: Cayman theme
-email: khaoszen@163.com
-description: KhaosZen is a stupid lazy little guy XD.
-show_downloads: true
-github_username: KhaosZen
-comment: true
-theme: jekyll-theme-cayman
----
+title: KhaosZen's Blog
+description: Welcome to my house!
+show_downloads: false
+google_analytics:
+theme: 
