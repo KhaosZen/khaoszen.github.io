@@ -2,4 +2,5 @@ title: KhaosZen's Blog
 description: Welcome to my house!
 show_downloads: false
 google_analytics:
-theme: 
+theme:
+comments: true
