@@ -1,5 +1,9 @@
+---
 title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+email: khaoszen@163.com
+description: KhaosZen is a stupid lazy little guy XD.
 show_downloads: true
-google_analytics:
+github_username: KhaosZen
+comment: true
 theme: jekyll-theme-cayman
+---
