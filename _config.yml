@@ -22,6 +22,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
+    - {title: Main, description: Main, url: 'http://khaozen.github.io'}
     - {title: Others, description: Others, url: 'http://weibo.com/Khaos_Zen'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
