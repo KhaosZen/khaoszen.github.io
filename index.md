@@ -11,6 +11,6 @@ int main(){
 }
 ```
 
-施工中，慢慢等。
+Under construction.
 
-[我的微博](http://weibo.com/1887851992/info)
+My Weibo:[@Khaos_Zen](http://weibo.com/1887851992/info)
