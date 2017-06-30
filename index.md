@@ -4,7 +4,7 @@ layout: default
 
 ```c++
 #include <iostream>
-using name space std;
+using namespace std;
 int main(){  
 	cout<<"hello world!"<<endl;
 	return 0;
