@@ -1,7 +1,48 @@
+# Basic
 title: KhaosZen's Blog
-description: Welcome to my house!
-show_downloads: false
-google_analytics:
-theme:
-comment: 
-    disqus: khaoszen
+subtitle: Shares opinions and funny things.
+welcome_message: Welcome to my house!
+description: Star Wars Fan|Gundam is men's romance|Core Gamer|Individual Sports Fan|Han Shot First
+creator: <a href="https://github.com/khaoszen">@KhaosZen</a>
+
+url: "http://khaoszen.github.io"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: blue
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: gray
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: Others, description: Others, url: 'http://weibo.com/Khaos_Zen'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: Khaos_Zen
+    github: KhaosZen
+    twitter: ZodiacXCyborg
+    mail: khaoszen@163.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
