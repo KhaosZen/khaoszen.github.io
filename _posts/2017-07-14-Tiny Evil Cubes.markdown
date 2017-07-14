@@ -34,23 +34,19 @@ W: 跳跃
 
 ### 道具和收集要素：
 + **跑得快**（Run Faster）：  
-<div align=center>
 ![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/speed_up.png)
-</div>
-玩家在使用该道具后会具有加速效果，就像踩了香蕉皮一样。
+- 玩家在使用该道具后会具有加速效果，就像踩了香蕉皮一样。
 
-+ **跳得高**(High Jumping)：
-<div align=center>
-![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/jump_higher.png)
-</div> 
-~~突然发现图标上的higher写成了higer...不要在意这些细节~~  
-玩家在使用该道具后会有高跳效果。
++ **跳得高**(High Jumping)：  
+![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/jump_higher.png) 
+
+- ~~突然发现图标上的higher写成了higer...不要在意这些细节~~  
+- 玩家在使用该道具后会有高跳效果。
 
 + **传送鸡**（Teleport Chicken)：  
-<div align=center>
 ![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/bird.png)
-</div> 
-玩家在使用该道具后会随机传送到地图上任意由硬币的位置。
+
+- 玩家在使用该道具后会随机传送到地图上任意由硬币的位置。
 
 + **金币**（Coin）：
 <div align=center>
@@ -59,17 +55,13 @@ W: 跳跃
 金币是游戏中最重要的收集要素，玩家之间的比分会从金币数量上得到体现（1金币=5分）。
 
 + **金币雨**（Coin Rain）：
-<div align=center>
 ![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/coin_rain.png)
-</div> 
-只有在玩家接触金币雨后地图中才会从上往下降下金币雨。
+- 只有在玩家接触金币雨后地图中才会从上往下降下金币雨。
 
 ### 地图要素和玩家特性
 + 地图要素：  
-在地图中央有一个点唱机，玩家可以使用自己的分数（5分）碰触点唱机的顶端即可进行切歌（BGM）操作。
-<div align=center>
+在地图中央有一个点唱机，玩家可以使用自己的分数（5分）碰触点唱机的顶端即可进行切歌（BGM）操作。  
 ![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/Juke_Box.png)
-</div> 
 + 玩家特性：  
 玩家之间可以通过碰撞将对方击飞（包含左右和上下），如果玩家从地图两侧跌落，分数将会清零。
 
