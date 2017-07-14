@@ -50,7 +50,7 @@ W: 跳跃
 + **金币**（Coin）：  
 ![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/coin.png).
 
-金币是游戏中最重要的收集要素，玩家之间的比分会从金币数量上得到体现（1金币=5分）。
+- 金币是游戏中最重要的收集要素，玩家之间的比分会从金币数量上得到体现（1金币=5分）。
 
 + **金币雨**（Coin Rain）：
 ![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/coin_rain.png)
