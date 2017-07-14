@@ -3,7 +3,7 @@
 layout:posts
 title:Tiny Evil Cubes
 date:2017-07-14 11:11:11.000000000 +08:00
-tags: 游戏
+tags: 游戏  
 ---
 ## 2017 Summer Game Design Final Project  
 
@@ -67,7 +67,7 @@ W: 跳跃
 + 地图要素：  
 在地图中央有一个点唱机，玩家可以使用自己的分数（5分）碰触点唱机的顶端即可进行切歌（BGM）操作。
 <div align=center>
-![run_fast](./pics/Juke_Box.png)
+![run_fast](https://github.com/KhaosZen/khaoszen.github.io/blob/master/_posts/pics/Juke_Box.png)
 </div> 
 + 玩家特性：  
 玩家之间可以通过碰撞将对方击飞（包含左右和上下），如果玩家从地图两侧跌落，分数将会清零。
