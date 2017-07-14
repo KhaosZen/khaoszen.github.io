@@ -5,7 +5,6 @@ title:Tiny Evil Cubes
 date:2017-07-14 11:11:11.000000000 +08:00
 tags: 游戏
 ---
-# Tiny Evil Cubes
 ## 2017 Summer Game Design Final Project  
 
 ![Tiny Evil Cubes](./pics/logo.png)
