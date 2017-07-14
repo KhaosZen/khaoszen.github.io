@@ -3,7 +3,6 @@
 layout: post
 title: Tiny Evil Cubes
 date: 2017-7-14 11:11:11.000000000 +08:00
-tags: 游戏
 ---
 
 ## 2017 Summer Game Design Final Project  
@@ -48,10 +47,9 @@ W: 跳跃
 
 - 玩家在使用该道具后会随机传送到地图上任意由硬币的位置。
 
-+ **金币**（Coin）：
-<div align=center>
-![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/coin.png)
-</div> 
++ **金币**（Coin）：  
+![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/coin.png).
+
 金币是游戏中最重要的收集要素，玩家之间的比分会从金币数量上得到体现（1金币=5分）。
 
 + **金币雨**（Coin Rain）：
