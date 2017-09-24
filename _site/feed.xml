@@ -5,47 +5,89 @@
     <description>Star Wars Fan|Gundam is men's romance|Core Gamer|Individual Sports Fan|Han Shot First</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Jul 2017 20:06:28 +0800</pubDate>
-    <lastBuildDate>Fri, 07 Jul 2017 20:06:28 +0800</lastBuildDate>
+    <pubDate>Tue, 19 Sep 2017 16:14:09 +0800</pubDate>
+    <lastBuildDate>Tue, 19 Sep 2017 16:14:09 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
-        <title>嗨！我回来了。</title>
-        <description>&lt;h2 id=&quot;引子&quot;&gt;引子&lt;/h2&gt;
-&lt;p&gt;嗨！我回来了……停更的这段时间思考了一下，自己做这个公众号的目的到底是什么。如果仅仅只是为了完成任务而完成任务的话，写这些东西的时间还不如用来干其他的事情。所以呢，我会对着个公众号进行一定程度的调整。当然，每个月还是会至少更新一点东西。但是，东西的内容为了保证质量，也许不会很长，内容也不会过于的丰富。主要还是围绕着自己的一些想法展开。还有，几经思考，只有我是这个公众号的运维者，因此我将在以后的文章中以“我”自称。&lt;br /&gt;
-嗯，当然，作为一个懒到图都不想找的人，今后的推送更新也许会是更大篇幅的文章，并且在图片和文字的比例上会渐渐失衡……（我会尽量找些图片来美化一下下的XD）&lt;/p&gt;
+        <title>Tiny Evil Cubes</title>
+        <description>&lt;h2 id=&quot;2017-summer-game-design-final-project&quot;&gt;2017 Summer Game Design Final Project&lt;/h2&gt;
 
-&lt;h2 id=&quot;关于看电影玩游戏听音乐这样的娱乐活动的思考&quot;&gt;关于看电影、玩游戏、听音乐这样的娱乐活动的思考&lt;/h2&gt;
-&lt;p&gt;随着年龄增长，我对看电影、玩游戏、听音乐这样的娱乐方式的思考也慢慢增加。本来这些所谓娱乐活动对我来说可能更多的就是“图个爽快”和“放松自己”，顺便把自己的精神世界带到另外一个地方，短暂的离开周围生活给我带来的一些困扰（当然现在很大成分也是如此）。但是呢，人长大了，想的更多一点，也开始在观影、玩游戏、听歌的过程和结束以后思考更多。比如，我在电影结束后会去思考：剧中的摄影是如何完成的，导演对于剧本有什么样的理解，演员在演出过程中时如何把感情展现出来的，电影的剧情的意义是什么……玩游戏、听音乐也大抵类似。&lt;br /&gt;
-这样的思考是源自于以前语文课上学到的阅读理解，在此特别感谢我的历任班主任们:D。&lt;br /&gt;
-然而在这样的思考背后，我发现我难以把我的想法用言语准确的表达出来，写出来的字说出来的话破碎而零散。出于这样的自觉，我想要通过“练习”，也就是写推文把自己的表达能力提升一点档次，起码能和自己想的达成一致。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/logo.png&quot; alt=&quot;Tiny Evil Cubes&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;关于奥斯卡&quot;&gt;关于奥斯卡&lt;/h2&gt;
-&lt;p&gt;今年算是我头一次认真的关注了一次奥斯卡。虽然颁奖典礼因为上课也只看了最后部分，但是在寒假期间我还是把所有的最佳影片的提名（除《隐藏人物》）都看了一遍。可以说还是有点感受。&lt;/p&gt;
-&lt;h3 id=&quot;月光男孩&quot;&gt;月光男孩&lt;/h3&gt;
-&lt;p&gt;最佳影片发给哪部影片这个东西真的很不好得说。事实上对于今年把最佳影片这个奖项颁发给《月光男孩》虽然说有些争议（特别是在国内范围内），但是这部影片也确确实实的讲述了一个意味深长的故事（人应该怎么活着、社会环境对一个人成长所造成的影响……），更是在话题性和政治正确上拔得头筹。&lt;br /&gt;
-今年是一个黑人影片竞相争锋的一年，有话剧改编的有着爆表演技展现的《藩篱》；也有讲述黑人女科学自强不息为国家作出伟大贡献的《隐藏人物》；也有这部聚焦于黑人同性恋成长和思考的《月光男孩》。（哦对了还有一个叫做《我不是你的黑鬼》的纪录片得到了最佳纪录片的提名）&lt;br /&gt;
-在我看来，《月光男孩》是一部优秀的电影，分段式的叙事结构、有时出乎人意料的剧情走向、走心的情感描写都让这部电影呈现出十分强烈的真实感，观众也能够很快的进入Chiron这个角色，甚至在内心不自觉的和Chiron作出相似的选择。这大概也是《月光男孩》能够得到如此盛赞的原因吧。&lt;br /&gt;
-最佳影片是谁重要吗？嗯……我觉得是不太重要啦。还是要看完这部电影你能有所触动，有所感受，这就足够了。&lt;/p&gt;
-&lt;h3 id=&quot;爱乐之城&quot;&gt;爱乐之城&lt;/h3&gt;
-&lt;p&gt;赞美这部作品！&lt;br /&gt;
-怎么说呢，《爱乐之城》是我觉得这届奥斯卡最佳影片中三观最正的。也许是因为它不是那么的含蓄，情感表现上更加的直接明了。当然！还有它的调色和配乐！音乐没什么可说的（对一个爵士门外汉来说），影片那种复古的胶片颗粒感和如梦似幻的配色真的很棒……&lt;br /&gt;
-嗯多的就不说了，大家应该都看过嘿嘿嘿。《City of Stars》循环起来～&lt;/p&gt;
-&lt;h3 id=&quot;海边的曼彻斯特&quot;&gt;海边的曼彻斯特&lt;/h3&gt;
-&lt;p&gt;看完这部电影整个人是懵的……当你觉得你的生活一团糟，迷茫的不得了的时候，一个叫做卡西·阿弗莱克的男人站在了你的面前，用他神乎其神的演技告诉你，《海边》的男主——李比你惨多了。卡西在《海边》里的表现无愧于奥斯卡影帝的盛誉。&lt;br /&gt;
-这是一个丧的不能再丧的人生故事了，也许只有经历过失望和低潮的人能在看完这部电影之后变得更加乐观一些。&lt;br /&gt;
-轶事：这部由马特·戴蒙监制的影片本来呆萌打算自己演出的，然而由于拍片档期（《Jason Bourne》、《长城》）十分紧张，呆萌只好退而求其次让其好友卡西出演男主。呆萌知道卡西是影帝以后，会不会为自己的这一选择感到后悔呢哈哈。&lt;/p&gt;
+&lt;h3 id=&quot;前言&quot;&gt;前言&lt;/h3&gt;
+&lt;p&gt;这个游戏由上海科技大学的5位本科生共同合作完成，人物、道具设计版权归曾祥琛所有，游戏内容可随意传播，转载请注明出处并告知作者。&lt;/p&gt;
+&lt;h3 id=&quot;开发人员&quot;&gt;开发人员：&lt;/h3&gt;
+&lt;p&gt;主程序师：胡俊宇&lt;br /&gt;
+UI设计师／副程序师：徐寅韬&lt;br /&gt;
+音效制作／音效编辑：陈刘皓&lt;br /&gt;
+创意总监：朱媚媚&lt;br /&gt;
+艺术总监：曾祥琛&lt;br /&gt;
+&lt;strong&gt;特别鸣谢：水山(Weibo:&lt;a href=&quot;http://weibo.com/mizuyama?refer_flag=1001030102_&amp;amp;retcode=6102&amp;amp;is_hot=1&quot;&gt;@水山紘糖专供&lt;/a&gt;)的配音&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;使用方法&quot;&gt;使用方法：&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://pan.baidu.com/share/link?shareid=4055294867&amp;amp;uk=2285346983？&quot;&gt;点击此处&lt;/a&gt;下载游戏文件压缩包，解压后运行可执行文件即可。&lt;/p&gt;
 
-&lt;h2 id=&quot;秒了&quot;&gt;秒了&lt;/h2&gt;
-&lt;p&gt;渡过了一段低潮，游戏业界又开始出现不少佳作。其中以最近的《仁王(Ni-Oh)》、《地平线：零点黎明(Horizon Zero Dawn)》和《塞尔达传说：荒野之息(Legend of Zelda: Breath of the Wind)》为代表的RPG游戏可谓是抢尽风头。&lt;br /&gt;
-于是乎，曾今风靡于PS4吧的表情包——“垃圾！《血源》（2015年发售PS4独占Souls-Like游戏）秒了”死灰复燃，进而转化为了“垃圾！《仁王》秒了”、“垃圾！《地平线》秒了”和“塞尔达：‘我把你们都秒了’”的超级表情包大战，更有网友做出了各个游戏互相秒杀的关系示意图。&lt;br /&gt;
-这边撕的痛快，玩家也确实玩的舒爽。谁不开心呢？&lt;/p&gt;
+&lt;h3 id=&quot;控制&quot;&gt;控制：&lt;/h3&gt;
+&lt;h4 id=&quot;player-1&quot;&gt;Player 1&lt;/h4&gt;
+&lt;p&gt;A: 向左移动&lt;br /&gt;
+D: 向右移动&lt;br /&gt;
+W: 跳跃&lt;/p&gt;
+&lt;h4 id=&quot;player-2&quot;&gt;Player 2&lt;/h4&gt;
+&lt;p&gt;→: 跳跃 &lt;br /&gt;
+←：向左移动&lt;br /&gt;
+↑：向右移动&lt;/p&gt;
+
+&lt;h3 id=&quot;道具和收集要素&quot;&gt;道具和收集要素：&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;跑得快&lt;/strong&gt;（Run Faster）：&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/speed_up.png&quot; alt=&quot;run_fast&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;玩家在使用该道具后会具有加速效果，就像踩了香蕉皮一样。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;跳得高&lt;/strong&gt;(High Jumping)：&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/jump_higher.png&quot; alt=&quot;run_fast&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;del&gt;突然发现图标上的higher写成了higer…不要在意这些细节&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;玩家在使用该道具后会有高跳效果。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;传送鸡&lt;/strong&gt;（Teleport Chicken)：&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/bird.png&quot; alt=&quot;run_fast&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;玩家在使用该道具后会随机传送到地图上任意由硬币的位置。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;金币&lt;/strong&gt;（Coin）：&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/coin.png&quot; alt=&quot;run_fast&quot; /&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;金币是游戏中最重要的收集要素，玩家之间的比分会从金币数量上得到体现（1金币=5分）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;金币雨&lt;/strong&gt;（Coin Rain）：
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/coin_rain.png&quot; alt=&quot;run_fast&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;只有在玩家接触金币雨后地图中才会从上往下降下金币雨。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;地图要素和玩家特性&quot;&gt;地图要素和玩家特性&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;地图要素：&lt;br /&gt;
+在地图中央有一个点唱机，玩家可以使用自己的分数（5分）碰触点唱机的顶端即可进行切歌（BGM）操作。&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/Juke_Box.png&quot; alt=&quot;run_fast&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;玩家特性：&lt;br /&gt;
+玩家之间可以通过碰撞将对方击飞（包含左右和上下），如果玩家从地图两侧跌落，分数将会清零。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;后记&quot;&gt;后记&lt;/h3&gt;
+&lt;p&gt;这是我（组内其他人也是）第一次制作的一个团队项目类型的游戏，本作在经过4天的Gameplay的设计和打磨以后基本可以实现一个玩家的休闲游玩。看到体验者玩的开心我们心里也是十分快乐的。&lt;strong&gt;合作万岁&lt;/strong&gt;！关于这个游戏的一些意见可以发邮件（zengxch@shanghaitech.edu.cn 或 khaoszen@163.com）给我,也可以在评论区留言厚！谢谢！&lt;/p&gt;
 </description>
-        <pubDate>Sun, 16 Apr 2017 11:11:11 +0800</pubDate>
-        <link>http://localhost:4000/2017/04/%E5%97%A8-%E6%88%91%E5%9B%9E%E6%9D%A5%E4%BA%86/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/%E5%97%A8-%E6%88%91%E5%9B%9E%E6%9D%A5%E4%BA%86/</guid>
+        <pubDate>Fri, 14 Jul 2017 11:11:11 +0800</pubDate>
+        <link>http://localhost:4000/2017/07/Tiny-Evil-Cubes/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/Tiny-Evil-Cubes/</guid>
         
-        <category>评论,生活,游戏</category>
+        <category>游戏</category>
         
         
       </item>
