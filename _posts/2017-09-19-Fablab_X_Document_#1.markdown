@@ -30,6 +30,7 @@ tags: FablabX
 + Build my pages all on my own or use the help of **Jekyll** to build a static websige by using the [**Markdown Language**](https://guides.github.com/features/mastering-markdown/).
 + Following the tutorials from the Internet and finish the Website building.
 
-### A glance of my blog and the course
+### A glance of [my blog](https://khaoszen.github.io) and the course
 ![My Page](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/MyPages.png)
-![My Page](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/Inthecourse.png)
+
+![My Page](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/Inthecourse.jpg)
