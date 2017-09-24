@@ -1,11 +1,10 @@
 ---
-layout: post
-title: 托福冲一百分班 Tofel Listening #1
-date: 2017-9-24 11:11:11.000000000 +08:00
-tags: 托福
+layout: post  
+title: 托福冲一百分班 Tofel Listening #1  
+date: 2017-9-24 11:11:11.000000000 +08:00  
+tags: 托福  
 ---
 
-# 托福冲一百分班 Tofel Listening #1
 ## 托福考试简介及听力简介
 
 ### 托福训练软件（TPO）
