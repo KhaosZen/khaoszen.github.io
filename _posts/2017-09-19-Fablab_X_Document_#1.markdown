@@ -1,12 +1,16 @@
-# Fablab X Document #1
-## 2017-9-19
+---
+layout: post  
+title: FablabX Document 1
+date: 2017-9-19 11:11:11.000000000 +08:00  
+tags: FablabX  
+---
+
 ### 1.Introduction of Fab Lab
 
 #### What is Fablab
 
 + A SPACE ABOUT BITS AND ATOMS+ PART OF A NETWORK+ A LOCAL AND GLOBAL COMMUNITY+ A SET OF TOOLS+ A SET OF KNOWLEDGE+ A SET OF PROCESSES+ A SERVICE+ NOT A FRANCHISING+ A BUSINESS+ A CONCEPT CURRENTLY UNDER DEVELOPMENT
-
-#### 
+![Fablab Distribution](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/Fablabdistro.png)
 
 ### 2.How to build a documentation website
 + HTML: Essential Structure;
@@ -26,5 +30,6 @@
 + Build my pages all on my own or use the help of **Jekyll** to build a static websige by using the [**Markdown Language**](https://guides.github.com/features/mastering-markdown/).
 + Following the tutorials from the Internet and finish the Website building.
 
-### A glance of my blog
-![My Page]()
+### A glance of my blog and the course
+![My Page](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/MyPages.png)
+![My Page](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/Inthecourse.png)

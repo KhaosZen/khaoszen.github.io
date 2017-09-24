@@ -5,12 +5,12 @@
     <description>Star Wars Fan|Gundam is men's romance|Core Gamer|Individual Sports Fan|Han Shot First</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 24 Sep 2017 17:17:46 +0800</pubDate>
-    <lastBuildDate>Sun, 24 Sep 2017 17:17:46 +0800</lastBuildDate>
+    <pubDate>Sun, 24 Sep 2017 19:41:55 +0800</pubDate>
+    <lastBuildDate>Sun, 24 Sep 2017 19:41:55 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
-        <title>托福冲一百分班 Tofel Listening</title>
+        <title>托福冲一百分班 Tofel Listening 第一节</title>
         <description>&lt;h2 id=&quot;托福考试简介及听力简介&quot;&gt;托福考试简介及听力简介&lt;/h2&gt;
 
 &lt;h3 id=&quot;托福训练软件tpo&quot;&gt;托福训练软件（TPO）&lt;/h3&gt;
@@ -66,6 +66,73 @@
         <guid isPermaLink="true">http://localhost:4000/2017/09/Tofel_Listening-1/</guid>
         
         <category>托福</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>FablabX Document 1</title>
+        <description>&lt;h3 id=&quot;1introduction-of-fab-lab&quot;&gt;1.Introduction of Fab Lab&lt;/h3&gt;
+
+&lt;h4 id=&quot;what-is-fablab&quot;&gt;What is Fablab&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A SPACE ABOUT BITS AND ATOMS&lt;/li&gt;
+  &lt;li&gt;PART OF A NETWORK&lt;/li&gt;
+  &lt;li&gt;A LOCAL AND GLOBAL COMMUNITY&lt;/li&gt;
+  &lt;li&gt;A SET OF TOOLS&lt;/li&gt;
+  &lt;li&gt;A SET OF KNOWLEDGE&lt;/li&gt;
+  &lt;li&gt;A SET OF PROCESSES&lt;/li&gt;
+  &lt;li&gt;A SERVICE&lt;/li&gt;
+  &lt;li&gt;NOT A FRANCHISING&lt;/li&gt;
+  &lt;li&gt;A BUSINESS&lt;/li&gt;
+  &lt;li&gt;A CONCEPT CURRENTLY UNDER DEVELOPMENT
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/Fablabdistro.png&quot; alt=&quot;Fablab Distribution&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2how-to-build-a-documentation-website&quot;&gt;2.How to build a documentation website&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML: Essential Structure;
+    &lt;ul&gt;
+      &lt;li&gt;HTML stands for &lt;strong&gt;H&lt;/strong&gt;yper &lt;strong&gt;T&lt;/strong&gt;ext &lt;strong&gt;M&lt;/strong&gt;arkup &lt;strong&gt;L&lt;/strong&gt;anguage&lt;/li&gt;
+      &lt;li&gt;HTML describes the &lt;strong&gt;structure&lt;/strong&gt; of Web pages using markup&lt;/li&gt;
+      &lt;li&gt;HTML elements are the &lt;strong&gt;building blocks&lt;/strong&gt; of HTML pages&lt;/li&gt;
+      &lt;li&gt;HTML elements are represented by &lt;strong&gt;tags&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;HTML tags label pieces of content such as “heading”, “paragraph”, “table”, and so on&lt;/li&gt;
+      &lt;li&gt;Browsers do not display the HTML tags, but use them to &lt;strong&gt;render&lt;/strong&gt; the content of the page&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;CSS: Page design;
+    &lt;ul&gt;
+      &lt;li&gt;CSS stands for &lt;strong&gt;C&lt;/strong&gt;ascading &lt;strong&gt;S&lt;/strong&gt;tyle &lt;strong&gt;S&lt;/strong&gt;heets&lt;/li&gt;
+      &lt;li&gt;CSS describes how HTML elements are to be displayed on screen, paper, or in other media&lt;/li&gt;
+      &lt;li&gt;CSS saves a lot of work. It can control the layout of multiple web pages all at once&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;External stylesheets&lt;/strong&gt; are stored in CSS files&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;JS: Page behavior;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;However, I use the Markdown language with Jeckyll Sever (Easy to config and easy to handle).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3how-i-built-my-own-website&quot;&gt;3.How I Built My Own Website&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Go to &lt;a href=&quot;https://www.github.com&quot;&gt;Github&lt;/a&gt; and register an Github account.&lt;/li&gt;
+  &lt;li&gt;Login and create a new repository in my Github and name it [username].github.io.(May be this &lt;a href=&quot;https://pages.github.com/&quot;&gt;link&lt;/a&gt; would help.)&lt;/li&gt;
+  &lt;li&gt;Build my pages all on my own or use the help of &lt;strong&gt;Jekyll&lt;/strong&gt; to build a static websige by using the &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;&lt;strong&gt;Markdown Language&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Following the tutorials from the Internet and finish the Website building.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;a-glance-of-my-blog-and-the-course&quot;&gt;A glance of my blog and the course&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/MyPages.png&quot; alt=&quot;My Page&quot; /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/Inthecourse.png&quot; alt=&quot;My Page&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 19 Sep 2017 11:11:11 +0800</pubDate>
+        <link>http://localhost:4000/2017/09/Fablab_X_Document_-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/Fablab_X_Document_-1/</guid>
+        
+        <category>FablabX</category>
         
         
       </item>
