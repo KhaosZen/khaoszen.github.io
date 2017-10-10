@@ -26,16 +26,16 @@ Tutorials [**here**](https://www.rhino3d.com/learn).
 	+ This is known as the laser kerf and ranges from 0.08mm – 1mm depending on the material type, its thickness and laser settings (power, speed, PPI).
 	
 + Some pictures.  
-![lscpic1](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic1.jpg)  
-![lscpic2](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic2.jpg)  
-![lscpic3](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic3.jpg) 
+![lscpic1](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic1.jpeg)  
+![lscpic2](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic2.jpeg)  
+![lscpic3](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic3.jpeg) 
 
 
 ### Design Exercise: A cute doge name tag
 ####1. 2D Design on the Rhinoceros 
-![doge0](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge0.jpg) 
+![doge0](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge0.jpeg) 
 ####2. Some adjustments and print 
-![doge1](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge1.jpg) 
+![doge1](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge1.jpeg) 
 ####3. Complete!  
-![doge2](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge2.jpg)  
-![doge3](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge3.jpg) 
+![doge2](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge2.jpeg)  
+![doge3](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge3.jpeg) 
