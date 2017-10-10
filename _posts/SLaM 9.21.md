@@ -8,3 +8,4 @@ Isotropic Scaling
 Identity, Rotation, Isotropic Scaling
 ### Affine Transformations
 All the transformation types above
+## Homogeneous visualization
