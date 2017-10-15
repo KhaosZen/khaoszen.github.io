@@ -2,7 +2,7 @@
 layout: post  
 title: FABO X Document 3
 date: 2017-10-14 11:11:11.000000000 +08:00  
-tags: FABO X  
+tags: FABO-X  
 ---
 
 ## Introduction to 3D Printing  

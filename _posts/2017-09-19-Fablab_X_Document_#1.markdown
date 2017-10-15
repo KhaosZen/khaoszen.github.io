@@ -2,7 +2,7 @@
 layout: post  
 title: FablabX Document 1
 date: 2017-9-19 11:11:11.000000000 +08:00  
-tags: FablabX  
+tags: FABO-X  
 ---
 
 ### 1.Introduction of Fab Lab

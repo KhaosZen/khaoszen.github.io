@@ -2,7 +2,7 @@
 layout: post  
 title: FABO X Document 2
 date: 2017-9-26 11:11:11.000000000 +08:00  
-tags: FABO X  
+tags: FABO-X  
 ---
 
 ### 2D CAD with Rhinoceros

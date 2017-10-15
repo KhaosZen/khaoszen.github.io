@@ -5,8 +5,8 @@
     <description>Gundam is men's romance | Core Gamer | Individual Sports Fan | Han Shot First | ShanghaiTech Undergraduate | Computer Science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Oct 2017 13:35:51 +0800</pubDate>
-    <lastBuildDate>Sun, 15 Oct 2017 13:35:51 +0800</lastBuildDate>
+    <pubDate>Sun, 15 Oct 2017 13:39:45 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Oct 2017 13:39:45 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -122,9 +122,7 @@
         <link>http://localhost:4000/2017/10/Fablab_X_Document_-3/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/Fablab_X_Document_-3/</guid>
         
-        <category>FABO</category>
-        
-        <category>X</category>
+        <category>FABO-X</category>
         
         
       </item>
@@ -192,9 +190,7 @@ to start cutting.&lt;/li&gt;
         <link>http://localhost:4000/2017/09/Fablab_X_Document_-2/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/09/Fablab_X_Document_-2/</guid>
         
-        <category>FABO</category>
-        
-        <category>X</category>
+        <category>FABO-X</category>
         
         
       </item>
@@ -323,7 +319,7 @@ to start cutting.&lt;/li&gt;
         <link>http://localhost:4000/2017/09/Fablab_X_Document_-1/</link>
         <guid isPermaLink="true">http://localhost:4000/2017/09/Fablab_X_Document_-1/</guid>
         
-        <category>FablabX</category>
+        <category>FABO-X</category>
         
         
       </item>
