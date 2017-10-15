@@ -9,29 +9,45 @@ tags: 游戏
 
 ![Tiny Evil Cubes](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/logo.png)
 
-### 前言
+### 前言/Foreword
 这个游戏由上海科技大学的5位本科生共同合作完成，人物、道具设计版权归曾祥琛所有，游戏内容可随意传播，转载请注明出处并告知作者。
-### 开发人员：
+
+This is a co-operative project developed by 5 undergraduated students from ShanghaiTech University, all the characters and items all created by [KhaosZen](https://khaos.github.io). Please feel free to share this interesting game.   
+  
+### 开发人员/Staff：
 主程序师：胡俊宇  
-UI设计师／副程序师：徐寅韬  
+Main Programmer : Junyu HU 
+    
+UI设计师／副程序师：徐寅韬   
+UI Design / Second Programmer : Yintao XU   
+  
 音效制作／音效编辑：陈刘皓  
-创意总监：朱媚媚  
-艺术总监：曾祥琛  
-**特别鸣谢：水山(Weibo:[@水山紘糖专供](http://weibo.com/mizuyama?refer_flag=1001030102_&retcode=6102&is_hot=1))的配音**
+Sound FX : Liuhao CHEN     
+
+创意总监：朱媚媚     
+Creative Producer : Meimei ZHU  
+  
+艺术总监：曾祥琛     
+Art Producer : Xiangchen ZENG  
+  
+**特别鸣谢：水山(Weibo:[@水山紘糖专供](http://weibo.com/mizuyama?refer_flag=1001030102_&retcode=6102&is_hot=1))的配音**   
+**Special Thanks：水山(Weibo:[@水山紘糖专供](http://weibo.com/mizuyama?refer_flag=1001030102_&retcode=6102&is_hot=1))‘s voiceover.**. 
+
 ### 使用方法：
 [点击此处](http://pan.baidu.com/share/link?shareid=4055294867&uk=2285346983？)下载游戏文件压缩包，解压后运行可执行文件即可。  
+[Click here](http://pan.baidu.com/share/link?shareid=4055294867&uk=2285346983？) and download the game file, unzip the file and run the "exe" file to run this game.
 
-### 控制： 
+### 控制/Control Scheme： 
 #### Player 1
-A: 向左移动  
-D: 向右移动  
-W: 跳跃  
+A: 向左移动  Move Left  
+D: 向右移动  Move Right  
+W: 跳跃  Jump  
 #### Player 2
-→: 跳跃   
-←：向左移动  
-↑：向右移动
+←：向左移动  Move Left  
+→：向右移动  Move Right   
+↑：跳跃 Jump 
 
-### 道具和收集要素：
+### 道具和收集要素/Items and Collectables：
 + **跑得快**（Run Faster）：  
 ![run_fast](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/speed_up.png)
 - 玩家在使用该道具后会具有加速效果，就像踩了香蕉皮一样。

@@ -2,7 +2,7 @@
 title: Zen Space
 subtitle: Sharing opinions and funny things.
 welcome_message: Welcome to my house!
-description: Star Wars Fan|Gundam is men's romance|Core Gamer|Individual Sports Fan|Han Shot First
+description: Gundam is men's romance | Core Gamer | Individual Sports Fan | Han Shot First | ShanghaiTech Undergraduate | Computer Science
 creator: <a href="https://github.com/khaoszen">@KhaosZen</a>
 
 url: "http://khaoszen.github.io"
@@ -17,13 +17,13 @@ cover_color: gray
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
+    title: Blog/我的博文
     description: Visit blog
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Main Page, description: Main, url: 'http://khaoszen.github.io'}
-    - {title: Others, description: Others, url: 'http://khaoszen.github.io/theuglyduckling.html'}
+    - {title: Main Page/主页, description: Main, url: 'index.html'}
+    - {title: Others/其它, description: Others, url: 'theuglyduckling.html'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -34,7 +34,6 @@ paginate_path: "page/:num/"
 # Comment
 comment:
     disqus: khaoszen
-    # duoshuo: 
     
 # Social
 social:
@@ -43,7 +42,3 @@ social:
     twitter: ZodiacXCyborg
     mail: khaoszen@163.com
 
-# Google Analytics
-ga:
-    # id: your_ga_id
-    # host: your_host

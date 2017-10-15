@@ -2,15 +2,205 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zen Space</title>
-    <description>Star Wars Fan|Gundam is men's romance|Core Gamer|Individual Sports Fan|Han Shot First</description>
+    <description>Gundam is men's romance | Core Gamer | Individual Sports Fan | Han Shot First | ShanghaiTech Undergraduate | Computer Science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Sep 2017 15:56:15 +0800</pubDate>
-    <lastBuildDate>Mon, 25 Sep 2017 15:56:15 +0800</lastBuildDate>
+    <pubDate>Sun, 15 Oct 2017 13:35:51 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Oct 2017 13:35:51 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
-        <title>托福冲一百分班 Tofel Listening 第一节</title>
+        <title>FABO X Document 3</title>
+        <description>&lt;h2 id=&quot;introduction-to-3d-printing&quot;&gt;Introduction to 3D Printing&lt;/h2&gt;
+&lt;h3 id=&quot;3d-printer-technologies&quot;&gt;3D Printer Technologies&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;SLA: Stereolithography.
+    &lt;ul&gt;
+      &lt;li&gt;Liquid resin + Laser beam&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;DLP: Digital Light Processing.
+    &lt;ul&gt;
+      &lt;li&gt;liquid resin + light&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SLS: Selective Laser Sintering.
+    &lt;ul&gt;
+      &lt;li&gt;Nylon powder + Laser beam&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;FDM: Fuse Deposition Modeling
+    &lt;ul&gt;
+      &lt;li&gt;plastic filament + Heated nozzle&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fdm-printing-material&quot;&gt;FDM Printing Material&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;ABS(Actylonitrile butadiene styrene)&lt;/li&gt;
+  &lt;li&gt;PLA (Polylactic Acid)&lt;/li&gt;
+  &lt;li&gt;Nylon (PA, Polyamides)&lt;/li&gt;
+  &lt;li&gt;Rubber(TPE, Thermoplastic Elastomers)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fdm-printing-comes-down-to-a-combination-of&quot;&gt;FDM Printing Comes Down to a Combination of:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Nozzle (Hot end) temperature&lt;/li&gt;
+  &lt;li&gt;Print Speed(XYZ Motors)&lt;/li&gt;
+  &lt;li&gt;Flow Speed(Extrusion speed of plastic filament)&lt;/li&gt;
+  &lt;li&gt;Heated Temperature&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;design-rules-for-your-printer&quot;&gt;Design Rules For Your Printer&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wall Thickness/Shell Thickness(nozzle size)
+    &lt;ul&gt;
+      &lt;li&gt;The wall thickness must be a multiple of the size of your nozzle. If your nozzle is 0.4mm your wall must be 0.4 or 0.8 or 1.2 and so on.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Minimal Gap of separation between moving parts&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Overhang(45 degree rule)
+    &lt;ul&gt;
+      &lt;li&gt;With FDM printing you cannot “print in the air”, you always need material fro the previous layer to support.&lt;/li&gt;
+      &lt;li&gt;Overhang is OK until 45(degree). After this limit, you need to add support material, that will be removed later.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Layer Height
+    &lt;ul&gt;
+      &lt;li&gt;The height of each layer affects the resolution, the detail and the smoothness of your print. Differences in layer height cane especially seen in horizontal curved shapes. Bigger layer height can be used to quickly print test models.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bridging
+    &lt;ul&gt;
+      &lt;li&gt;In one case you can connect two parts of the model by “printing in the air” by creating a bridge with the filament. It is important to set the right speed, flow and temperature to get a good result.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Useful Websites
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;riprap.org/wiki/Glossary&quot;&gt;reprap.org&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;thingiverse.com&quot;&gt;Thingiverse&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;exercisedesign-and-print-something-that-cannot-be-laser-cutted&quot;&gt;Exercise:DESIGN AND PRINT SOMETHING THAT CANNOT BE LASER CUTTED.&lt;/h3&gt;
+&lt;h4 id=&quot;step-1-3d-design&quot;&gt;Step 1 3D Design&lt;/h4&gt;
+&lt;p&gt;Use the Rhinocero tool kit and design the 3D model.&lt;br /&gt;
+&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/model.png&quot; alt=&quot;model&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2-mesh&quot;&gt;Step 2 Mesh&lt;/h4&gt;
+&lt;p&gt;In Rhinocero, turn the 3D model to the mesh model.&lt;br /&gt;
+&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/mesh1.png&quot; alt=&quot;mesh1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/mesh2.png&quot; alt=&quot;mesh2&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3-driver-installation&quot;&gt;Step 3 Driver Installation&lt;/h4&gt;
+&lt;p&gt;Go to the XYZ Printing offical website and install the printing driver.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4-printer-configuration-and-printing&quot;&gt;Step 4 Printer Configuration and Printing&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Set up the model and decide which precision you want to print.
+&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/setup1.png&quot; alt=&quot;setup1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/setup2.jpg&quot; alt=&quot;setup2&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/heating.jpg&quot; alt=&quot;heating&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Load the ABS filament.(On the Printer’s Utility)&lt;/li&gt;
+  &lt;li&gt;Print and wait!
+    &lt;video width=&quot;672&quot; height=&quot;448&quot; align=&quot;center&quot; border=&quot;1&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/IMG_5550.m4v&quot; /&gt;
+  &lt;/video&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;a-glance-of-my-masterpiece&quot;&gt;A Glance of My “masterpiece”&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/stand1.jpg&quot; alt=&quot;heating&quot; /&gt; 
+&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/stand2.jpg&quot; alt=&quot;heating&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Oct 2017 11:11:11 +0800</pubDate>
+        <link>http://localhost:4000/2017/10/Fablab_X_Document_-3/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/Fablab_X_Document_-3/</guid>
+        
+        <category>FABO</category>
+        
+        <category>X</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>FABO X Document 2</title>
+        <description>&lt;h3 id=&quot;2d-cad-with-rhinoceros&quot;&gt;2D CAD with Rhinoceros&lt;/h3&gt;
+&lt;p&gt;Getting familiar with the CAD program Rihnoceros and make some naive design.&lt;br /&gt;
+Tutorials &lt;a href=&quot;https://www.rhino3d.com/learn&quot;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/rhinoceros.png&quot; alt=&quot;rhinoceros&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;laser-cutting-today&quot;&gt;Laser Cutting Today!&lt;/h3&gt;
+&lt;h4 id=&quot;1-introduction-to-some-laser-cutters&quot;&gt;1. Introduction to some laser cutters&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;CO&lt;sub&gt;2&lt;/sub&gt; Laser (10 micron)
+    &lt;ul&gt;
+      &lt;li&gt;Common applications: Wood, acrylic, glass, paper, textiles, plastics, foils &amp;amp; films, leather, stone&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Fibre Laser Solid State Laser (1 micron)
+    &lt;ul&gt;
+      &lt;li&gt;Common applications: marking metal, coated metals and high contrast marking on plastics.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;CO2 lasers are best suited for non-metals while Fiber lasers for metals.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;2-operating-tips-and-orders&quot;&gt;2. Operating tips and orders&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Turn on the laser cutter, the airflow and the exhaust filter.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Insert a sheet of material.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Focus&lt;/strong&gt; the laser head.&lt;/li&gt;
+  &lt;li&gt;Send the file from PC to the
+laser cutter.&lt;/li&gt;
+  &lt;li&gt;Use laser cutter control panel
+to start cutting.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;ps&quot;&gt;P.S.&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Kerf Calculation
+    &lt;ul&gt;
+      &lt;li&gt;The laser burns away a portion of material when it cuts through.&lt;/li&gt;
+      &lt;li&gt;This is known as the laser kerf and ranges from 0.08mm – 1mm depending on the material type, its thickness and laser settings (power, speed, PPI).&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Some pictures.&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic1.jpeg&quot; alt=&quot;lscpic1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic2.jpeg&quot; alt=&quot;lscpic2&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/lscpic3.jpeg&quot; alt=&quot;lscpic3&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;design-exercise-a-cute-doge-name-tag&quot;&gt;Design Exercise: A cute doge name tag&lt;/h3&gt;
+&lt;h4 id=&quot;1-2d-design-on-the-rhinoceros&quot;&gt;1. 2D Design on the Rhinoceros&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge0.jpeg&quot; alt=&quot;doge0&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;2-some-adjustments-and-print&quot;&gt;2. Some adjustments and print&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge1.jpeg&quot; alt=&quot;doge1&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;3-complete&quot;&gt;3. Complete!&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge2.jpeg&quot; alt=&quot;doge2&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge3.jpeg&quot; alt=&quot;doge3&quot; /&gt; 
+&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge4.jpeg&quot; alt=&quot;doge4&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Sep 2017 11:11:11 +0800</pubDate>
+        <link>http://localhost:4000/2017/09/Fablab_X_Document_-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/Fablab_X_Document_-2/</guid>
+        
+        <category>FABO</category>
+        
+        <category>X</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>托福冲一百分班 TOEFL Listening 第一节</title>
         <description>&lt;h2 id=&quot;托福考试简介及听力简介&quot;&gt;托福考试简介及听力简介&lt;/h2&gt;
 
 &lt;h3 id=&quot;托福训练软件tpo&quot;&gt;托福训练软件（TPO）&lt;/h3&gt;
@@ -62,8 +252,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Sun, 24 Sep 2017 11:11:11 +0800</pubDate>
-        <link>http://localhost:4000/2017/09/Tofel_Listening-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/Tofel_Listening-1/</guid>
+        <link>http://localhost:4000/2017/09/TOEFL_Listening-1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/TOEFL_Listening-1/</guid>
         
         <category>托福</category>
         
@@ -144,29 +334,45 @@
 
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/logo.png&quot; alt=&quot;Tiny Evil Cubes&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;前言&quot;&gt;前言&lt;/h3&gt;
+&lt;h3 id=&quot;前言foreword&quot;&gt;前言/Foreword&lt;/h3&gt;
 &lt;p&gt;这个游戏由上海科技大学的5位本科生共同合作完成，人物、道具设计版权归曾祥琛所有，游戏内容可随意传播，转载请注明出处并告知作者。&lt;/p&gt;
-&lt;h3 id=&quot;开发人员&quot;&gt;开发人员：&lt;/h3&gt;
+
+&lt;p&gt;This is a co-operative project developed by 5 undergraduated students from ShanghaiTech University, all the characters and items all created by &lt;a href=&quot;https://khaos.github.io&quot;&gt;KhaosZen&lt;/a&gt;. Please feel free to share this interesting game.&lt;/p&gt;
+
+&lt;h3 id=&quot;开发人员staff&quot;&gt;开发人员/Staff：&lt;/h3&gt;
 &lt;p&gt;主程序师：胡俊宇&lt;br /&gt;
-UI设计师／副程序师：徐寅韬&lt;br /&gt;
-音效制作／音效编辑：陈刘皓&lt;br /&gt;
-创意总监：朱媚媚&lt;br /&gt;
-艺术总监：曾祥琛&lt;br /&gt;
-&lt;strong&gt;特别鸣谢：水山(Weibo:&lt;a href=&quot;http://weibo.com/mizuyama?refer_flag=1001030102_&amp;amp;retcode=6102&amp;amp;is_hot=1&quot;&gt;@水山紘糖专供&lt;/a&gt;)的配音&lt;/strong&gt;&lt;/p&gt;
+Main Programmer : Junyu HU&lt;/p&gt;
+
+&lt;p&gt;UI设计师／副程序师：徐寅韬 &lt;br /&gt;
+UI Design / Second Programmer : Yintao XU&lt;/p&gt;
+
+&lt;p&gt;音效制作／音效编辑：陈刘皓&lt;br /&gt;
+Sound FX : Liuhao CHEN&lt;/p&gt;
+
+&lt;p&gt;创意总监：朱媚媚   &lt;br /&gt;
+Creative Producer : Meimei ZHU&lt;/p&gt;
+
+&lt;p&gt;艺术总监：曾祥琛   &lt;br /&gt;
+Art Producer : Xiangchen ZENG&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;特别鸣谢：水山(Weibo:&lt;a href=&quot;http://weibo.com/mizuyama?refer_flag=1001030102_&amp;amp;retcode=6102&amp;amp;is_hot=1&quot;&gt;@水山紘糖专供&lt;/a&gt;)的配音&lt;/strong&gt; &lt;br /&gt;
+&lt;strong&gt;Special Thanks：水山(Weibo:&lt;a href=&quot;http://weibo.com/mizuyama?refer_flag=1001030102_&amp;amp;retcode=6102&amp;amp;is_hot=1&quot;&gt;@水山紘糖专供&lt;/a&gt;)‘s voiceover.&lt;/strong&gt;.&lt;/p&gt;
+
 &lt;h3 id=&quot;使用方法&quot;&gt;使用方法：&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://pan.baidu.com/share/link?shareid=4055294867&amp;amp;uk=2285346983？&quot;&gt;点击此处&lt;/a&gt;下载游戏文件压缩包，解压后运行可执行文件即可。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://pan.baidu.com/share/link?shareid=4055294867&amp;amp;uk=2285346983？&quot;&gt;点击此处&lt;/a&gt;下载游戏文件压缩包，解压后运行可执行文件即可。&lt;br /&gt;
+&lt;a href=&quot;http://pan.baidu.com/share/link?shareid=4055294867&amp;amp;uk=2285346983？&quot;&gt;Click here&lt;/a&gt; and download the game file, unzip the file and run the “exe” file to run this game.&lt;/p&gt;
 
-&lt;h3 id=&quot;控制&quot;&gt;控制：&lt;/h3&gt;
+&lt;h3 id=&quot;控制control-scheme&quot;&gt;控制/Control Scheme：&lt;/h3&gt;
 &lt;h4 id=&quot;player-1&quot;&gt;Player 1&lt;/h4&gt;
-&lt;p&gt;A: 向左移动&lt;br /&gt;
-D: 向右移动&lt;br /&gt;
-W: 跳跃&lt;/p&gt;
+&lt;p&gt;A: 向左移动  Move Left&lt;br /&gt;
+D: 向右移动  Move Right&lt;br /&gt;
+W: 跳跃  Jump&lt;/p&gt;
 &lt;h4 id=&quot;player-2&quot;&gt;Player 2&lt;/h4&gt;
-&lt;p&gt;→: 跳跃 &lt;br /&gt;
-←：向左移动&lt;br /&gt;
-↑：向右移动&lt;/p&gt;
+&lt;p&gt;←：向左移动  Move Left&lt;br /&gt;
+→：向右移动  Move Right &lt;br /&gt;
+↑：跳跃 Jump&lt;/p&gt;
 
-&lt;h3 id=&quot;道具和收集要素&quot;&gt;道具和收集要素：&lt;/h3&gt;
+&lt;h3 id=&quot;道具和收集要素items-and-collectables&quot;&gt;道具和收集要素/Items and Collectables：&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;跑得快&lt;/strong&gt;（Run Faster）：&lt;br /&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/speed_up.png&quot; alt=&quot;run_fast&quot; /&gt;&lt;/li&gt;

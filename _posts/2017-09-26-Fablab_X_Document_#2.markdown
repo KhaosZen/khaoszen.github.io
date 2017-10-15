@@ -1,8 +1,8 @@
 ---
 layout: post  
-title: FablabX Document 2
+title: FABO X Document 2
 date: 2017-9-26 11:11:11.000000000 +08:00  
-tags: FablabX  
+tags: FABO X  
 ---
 
 ### 2D CAD with Rhinoceros
@@ -14,11 +14,22 @@ Tutorials [**here**](https://www.rhino3d.com/learn).
 
 ### Laser Cutting Today!
 #### 1. Introduction to some laser cutters
-+ CO<sub>2</sub> Laser (10 micron)   	+ Common applications: Wood, acrylic, glass, paper, textiles, plastics, foils & films, leather, stone+ Fibre Laser Solid State Laser (1 micron)    
-	+ Common applications: marking metal, coated metals and high contrast marking on plastics.+ CO2 lasers are best suited for non-metals while Fiber lasers for metals.
++ CO<sub>2</sub> Laser (10 micron)   
+	+ Common applications: Wood, acrylic, glass, paper, textiles, plastics, foils & films, leather, stone
+
++ Fibre Laser Solid State Laser (1 micron)    
+	+ Common applications: marking metal, coated metals and high contrast marking on plastics.
+
++ CO2 lasers are best suited for non-metals while Fiber lasers for metals.
 
 #### 2. Operating tips and orders
-1. **Turn on the laser cutter, the airflow and the exhaust filter.**2. Insert a sheet of material.3. **Focus** the laser head.4. Send the file from PC to thelaser cutter.5. Use laser cutter control panelto start cutting.
+1. **Turn on the laser cutter, the airflow and the exhaust filter.**
+2. Insert a sheet of material.
+3. **Focus** the laser head.
+4. Send the file from PC to the
+laser cutter.
+5. Use laser cutter control panel
+to start cutting.
 
 #### P.S.
 + Kerf Calculation
@@ -39,4 +50,4 @@ Tutorials [**here**](https://www.rhino3d.com/learn).
 #### 3. Complete!  
 ![doge2](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge2.jpeg)  
 ![doge3](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge3.jpeg) 
-![doge4](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge4.jpeg) 
+![doge4](https://raw.githubusercontent.com/KhaosZen/khaoszen.github.io/master/_posts/pics/doge4.jpeg)  
