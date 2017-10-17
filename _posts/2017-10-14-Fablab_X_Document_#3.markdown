@@ -55,29 +55,29 @@ tags: FABO-X
 ### Exercise:DESIGN AND PRINT SOMETHING THAT CANNOT BE LASER CUTTED.
 #### Step 1 3D Design
 Use the Rhinocero tool kit and design the 3D model.  
-![model](https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/model.png)
+![model](http://oxygvbxux.bkt.clouddn.com/model.png)
 
 #### Step 2 Mesh
 In Rhinocero, turn the 3D model to the mesh model.  
-![mesh1](https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/mesh1.png)  
-![mesh2](https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/mesh2.png)
+![mesh1](http://oxygvbxux.bkt.clouddn.com/mesh1.png)  
+![mesh2](http://oxygvbxux.bkt.clouddn.com/mesh2.png)
 
 #### Step 3 Driver Installation
 Go to the XYZ Printing offical website and install the printing driver.
 
 #### Step 4 Printer Configuration and Printing
 + Set up the model and decide which precision you want to print.
-![setup1](https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/setup1.png)  
-![setup2](https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/setup2.jpg)  
-![heating](https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/heating.jpg)  
+![setup1](http://oxygvbxux.bkt.clouddn.com/setup1.png)  
+![setup2](http://oxygvbxux.bkt.clouddn.com/setup2.jpg)  
+![heating](http://oxygvbxux.bkt.clouddn.com/heating.jpg)  
 + Load the ABS filament.(On the Printer's Utility)
 + Print and wait!  
-	<video width="672" height="448" align="center" border="1"  controls>
-		<source src="https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/IMG_5550.m4v">
+	<video width="480" height="320" align="center" border="1"  controls>
+		<source src="http://oxygvbxux.bkt.clouddn.com/IMG_5550.m4v">
 	</video>
 		
 
 #### A Glance of My "masterpiece"
-![heating](https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/stand1.jpg) 
-![heating](https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/stand2.jpg)   
+![heating](http://oxygvbxux.bkt.clouddn.com/stand1.jpg) 
+![heating](http://oxygvbxux.bkt.clouddn.com/stand2.jpg)   
    
