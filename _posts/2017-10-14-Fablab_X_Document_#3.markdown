@@ -63,7 +63,7 @@ In Rhinocero, turn the 3D model to the mesh model.
 ![mesh2](http://oxygvbxux.bkt.clouddn.com/mesh2.png)
 
 #### Step 3 Driver Installation
-Go to the XYZ Printing [offical website](http://xyzprinting.com) and install the printing driver.
+Go to the XYZ Printing [offical website](http://xyzprinting.com) and install the printer driver.
 
 #### Step 4 Printer Configuration and Printing
 + Set up the model and decide which precision you want to print.
@@ -72,7 +72,7 @@ Go to the XYZ Printing [offical website](http://xyzprinting.com) and install the
 ![heating](http://oxygvbxux.bkt.clouddn.com/heating.jpg)  
 + Load the ABS filament.(On the Printer's Utility)
 + Print and wait!  
-	<video width="480" height="320" align="center" border="1"  controls>
+	<video width="480" align = "center" border ="1" height="320"  autoplay="autoplay"  preload="auto" loop="loop"   controls>
 		<source src="http://oxygvbxux.bkt.clouddn.com/IMG_5550.m4v">
 	</video>
 		
