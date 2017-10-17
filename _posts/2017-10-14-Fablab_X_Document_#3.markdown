@@ -63,7 +63,7 @@ In Rhinocero, turn the 3D model to the mesh model.
 ![mesh2](http://oxygvbxux.bkt.clouddn.com/mesh2.png)
 
 #### Step 3 Driver Installation
-Go to the XYZ Printing offical website and install the printing driver.
+Go to the XYZ Printing [offical website](http://xyzprinting.com) and install the printing driver.
 
 #### Step 4 Printer Configuration and Printing
 + Set up the model and decide which precision you want to print.
