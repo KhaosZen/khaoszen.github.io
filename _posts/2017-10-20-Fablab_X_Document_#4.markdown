@@ -30,8 +30,8 @@ tags: FABO-X
 	![baozi1](http://oxygvbxux.bkt.clouddn.com/baozi1.jpg)
 	![baozi2](http://oxygvbxux.bkt.clouddn.com/baozi2.jpg)
 	![GNBS1](http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg)  
-	![GNBS2](http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg)  
-	![GNBS3](http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg)  
+	![GNBS2](http://oxygvbxux.bkt.clouddn.com/GNBS2.jpg)  
+	![GNBS3](http://oxygvbxux.bkt.clouddn.com/GNBS3.jpg)  
 
 3. Model repairing:
 	+ Use the [Autodesk Meshmixer](www.meshmixer.com) to repair the mesh.
