@@ -13,7 +13,7 @@ tags: FABO-X
 		+ Set the scanner into a fixed position and scan.(For only small and bright objects but accurate)
 	+ Fast Hand-held Mode: 
 		+ Hold the scanner in the user's hand and scan.(Scanning data is easy to lose and not accurate, but can scan the big object(s))
-	<video width="480" align = "center" border ="1" height="320" preload="auto"  controls>
+	<video width="960" align = "center" border ="1" height="640"  preload="auto"  controls>
 		<source src="http://oxygvbxux.bkt.clouddn.com/hand-held1.m4v">
 	</video>
 	+ Hand-held Mode:
@@ -23,7 +23,7 @@ tags: FABO-X
 	+ Make sure the object and the scanner is fixed.
 	+ Setup the parameters and begin the scan.
 	+ Scanning!  
-	<video width="480" align = "center" border ="1" height="320"  autoplay="autoplay"  preload="auto" loop="loop"   controls>
+	<video width="960" align = "center" border ="1" height="640"  autoplay="autoplay"  preload="auto" loop="loop"   controls>
 		<source src="http://oxygvbxux.bkt.clouddn.com/scanning.m4v">
 	</video>
 	+ Adjust the model and output the mesh file.  
@@ -35,7 +35,7 @@ tags: FABO-X
 
 3. Model repairing:
 	+ Use the [Autodesk Meshmixer](www.meshmixer.com) to repair the mesh.
-	<video width="480" align = "center" border ="1" height="320"  preload="auto"  controls>
+	<video width="960" align = "center" border ="1" height="640"  preload="auto"  controls>
 		<source src="http://oxygvbxux.bkt.clouddn.com/meshmixer.m4v">
 	</video>
 	
@@ -46,11 +46,11 @@ tags: FABO-X
 	
 #### P.S.
 + Another kinect based scanning software [Skanect](skanect.occipital.com/)
-	 <video width="480" align = "center" height="320"  preload="auto" controls>
+	 <video width="960" align = "center" border ="1" height="640"   preload="auto" controls>
 		<source src="http://oxygvbxux.bkt.clouddn.com/skanecting.m4v">
 	</video>
 	
-	<video width="480" align = "center" border ="1" height="320" preload="auto"  controls>
+	<video width="960" align = "center" border ="1" height="640"  preload="auto"  controls>
 		<source src="http://oxygvbxux.bkt.clouddn.com/skanect.m4v">
 	</video>  
 	
