@@ -5,9 +5,97 @@
     <description>Gundam is men's romance | Core Gamer | Individual Sports Fan | Han Shot First | ShanghaiTech Undergraduate | Computer Science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Oct 2017 13:40:55 +0800</pubDate>
-    <lastBuildDate>Sun, 15 Oct 2017 13:40:55 +0800</lastBuildDate>
+    <pubDate>Tue, 24 Oct 2017 11:39:43 +0800</pubDate>
+    <lastBuildDate>Tue, 24 Oct 2017 11:39:43 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>FABO X Document 4</title>
+        <description>&lt;h2 id=&quot;3d-scanning&quot;&gt;3D Scanning&lt;/h2&gt;
+&lt;h4 id=&quot;the-procedure-of-structed-light-3d-scanning-and-editing&quot;&gt;The procedure of Structed Light 3D Scanning and Editing&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Select Scan-type(Ex. of Ein-Scan-Pro):
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/einscan1.jpg&quot; alt=&quot;einscan&quot; /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fixed Mode:
+        &lt;ul&gt;
+          &lt;li&gt;Set the scanner into a fixed position and scan.(For only small and bright objects but accurate)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Fast Hand-held Mode:
+        &lt;ul&gt;
+          &lt;li&gt;Hold the scanner in the user’s hand and scan.(Scanning data is easy to lose and not accurate, but can scan the big object(s))&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;video width=&quot;480&quot; align=&quot;center&quot; border=&quot;1&quot; height=&quot;320&quot; preload=&quot;auto&quot; controls=&quot;&quot;&gt;
+     &lt;source src=&quot;http://oxygvbxux.bkt.clouddn.com/hand-held1.m4v&quot; /&gt;
+ &lt;/video&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Hand-held Mode:
+        &lt;ul&gt;
+          &lt;li&gt;Like the procedure of the Fast Hand-held Mode, but need extra fixed point stick on the objects.(Slow but accurate)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Scanning(Ex. of Fixed Mode):
+    &lt;ul&gt;
+      &lt;li&gt;Make sure the object and the scanner is fixed.&lt;/li&gt;
+      &lt;li&gt;Setup the parameters and begin the scan.&lt;/li&gt;
+      &lt;li&gt;Scanning!&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;video width=&quot;480&quot; align=&quot;center&quot; border=&quot;1&quot; height=&quot;320&quot; autoplay=&quot;autoplay&quot; preload=&quot;auto&quot; loop=&quot;loop&quot; controls=&quot;&quot;&gt;
+     &lt;source src=&quot;http://oxygvbxux.bkt.clouddn.com/scanning.m4v&quot; /&gt;
+ &lt;/video&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Adjust the model and output the mesh file.&lt;br /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/baozi1.jpg&quot; alt=&quot;baozi1&quot; /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/baozi2.jpg&quot; alt=&quot;baozi2&quot; /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg&quot; alt=&quot;GNBS1&quot; /&gt;&lt;br /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg&quot; alt=&quot;GNBS2&quot; /&gt;&lt;br /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg&quot; alt=&quot;GNBS3&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Model repairing:
+    &lt;ul&gt;
+      &lt;li&gt;Use the &lt;a href=&quot;www.meshmixer.com&quot;&gt;Autodesk Meshmixer&lt;/a&gt; to repair the mesh.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;video width=&quot;480&quot; align=&quot;center&quot; border=&quot;1&quot; height=&quot;320&quot; preload=&quot;auto&quot; controls=&quot;&quot;&gt;
+     &lt;source src=&quot;http://oxygvbxux.bkt.clouddn.com/meshmixer.m4v&quot; /&gt;
+ &lt;/video&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Editing and recreation:
+    &lt;ul&gt;
+      &lt;li&gt;Use Rhinoceros to edit and create as you wish!&lt;br /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/gnsmodel.jpeg&quot; alt=&quot;gnsmodel&quot; /&gt;&lt;br /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/finished.jpeg&quot; alt=&quot;finished&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;ps&quot;&gt;P.S.&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Another kinect based scanning software &lt;a href=&quot;skanect.occipital.com/&quot;&gt;Skanect&lt;/a&gt;
+    &lt;video width=&quot;480&quot; align=&quot;center&quot; height=&quot;320&quot; preload=&quot;auto&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;http://oxygvbxux.bkt.clouddn.com/skanecting.m4v&quot; /&gt;
+  &lt;/video&gt;
+
+    &lt;video width=&quot;480&quot; align=&quot;center&quot; border=&quot;1&quot; height=&quot;320&quot; preload=&quot;auto&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;http://oxygvbxux.bkt.clouddn.com/skanect.m4v&quot; /&gt;
+  &lt;/video&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 23 Oct 2017 11:11:11 +0800</pubDate>
+        <link>http://localhost:4000/2017/10/Fablab_X_Document_-4/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/Fablab_X_Document_-4/</guid>
+        
+        <category>FABO-X</category>
+        
+        
+      </item>
     
       <item>
         <title>FABO X Document 3</title>
@@ -89,33 +177,33 @@
 &lt;h3 id=&quot;exercisedesign-and-print-something-that-cannot-be-laser-cutted&quot;&gt;Exercise:DESIGN AND PRINT SOMETHING THAT CANNOT BE LASER CUTTED.&lt;/h3&gt;
 &lt;h4 id=&quot;step-1-3d-design&quot;&gt;Step 1 3D Design&lt;/h4&gt;
 &lt;p&gt;Use the Rhinocero tool kit and design the 3D model.&lt;br /&gt;
-&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/model.png&quot; alt=&quot;model&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/model.png&quot; alt=&quot;model&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;step-2-mesh&quot;&gt;Step 2 Mesh&lt;/h4&gt;
 &lt;p&gt;In Rhinocero, turn the 3D model to the mesh model.&lt;br /&gt;
-&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/mesh1.png&quot; alt=&quot;mesh1&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/mesh2.png&quot; alt=&quot;mesh2&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/mesh1.png&quot; alt=&quot;mesh1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/mesh2.png&quot; alt=&quot;mesh2&quot; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;step-3-driver-installation&quot;&gt;Step 3 Driver Installation&lt;/h4&gt;
-&lt;p&gt;Go to the XYZ Printing offical website and install the printing driver.&lt;/p&gt;
+&lt;p&gt;Go to the XYZ Printing &lt;a href=&quot;http://xyzprinting.com&quot;&gt;offical website&lt;/a&gt; and install the printer driver.&lt;/p&gt;
 
 &lt;h4 id=&quot;step-4-printer-configuration-and-printing&quot;&gt;Step 4 Printer Configuration and Printing&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;Set up the model and decide which precision you want to print.
-&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/setup1.png&quot; alt=&quot;setup1&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/setup2.jpg&quot; alt=&quot;setup2&quot; /&gt;&lt;br /&gt;
-&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/heating.jpg&quot; alt=&quot;heating&quot; /&gt;&lt;/li&gt;
+&lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/setup1.png&quot; alt=&quot;setup1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/setup2.jpg&quot; alt=&quot;setup2&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/heating.jpg&quot; alt=&quot;heating&quot; /&gt;&lt;/li&gt;
   &lt;li&gt;Load the ABS filament.(On the Printer’s Utility)&lt;/li&gt;
   &lt;li&gt;Print and wait!
-    &lt;video width=&quot;672&quot; height=&quot;448&quot; align=&quot;center&quot; border=&quot;1&quot; controls=&quot;&quot;&gt;
-      &lt;source src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/IMG_5550.m4v&quot; /&gt;
+    &lt;video width=&quot;480&quot; align=&quot;center&quot; border=&quot;1&quot; height=&quot;320&quot; autoplay=&quot;autoplay&quot; preload=&quot;auto&quot; loop=&quot;loop&quot; controls=&quot;&quot;&gt;
+      &lt;source src=&quot;http://oxygvbxux.bkt.clouddn.com/IMG_5550.m4v&quot; /&gt;
   &lt;/video&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;a-glance-of-my-masterpiece&quot;&gt;A Glance of My “masterpiece”&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/stand1.jpg&quot; alt=&quot;heating&quot; /&gt; 
-&lt;img src=&quot;https://s3-ap-northeast-1.amazonaws.com/khaoszen/KhaosZen/FABOX17Fall/Doc3/stand2.jpg&quot; alt=&quot;heating&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/stand1.jpg&quot; alt=&quot;heating&quot; /&gt; 
+&lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/stand2.jpg&quot; alt=&quot;heating&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sat, 14 Oct 2017 11:11:11 +0800</pubDate>

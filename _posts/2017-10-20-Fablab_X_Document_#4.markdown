@@ -46,12 +46,13 @@ tags: FABO-X
 	
 #### P.S.
 + Another kinect based scanning software [Skanect](skanect.occipital.com/)
-	+ <video width="480" align = "center" border ="1" height="320"  preload="auto" controls>
-		<source src="http://oxygvbxux.bkt.clouddn.com/skanect.m4v">
-	</video>  
-	+ <video width="480" align = "center" border ="1" height="320" preload="auto"  controls>
+	 <video width="480" align = "center" height="320"  preload="auto" controls>
 		<source src="http://oxygvbxux.bkt.clouddn.com/skanecting.m4v">
 	</video>
+	
+	<video width="480" align = "center" border ="1" height="320" preload="auto"  controls>
+		<source src="http://oxygvbxux.bkt.clouddn.com/skanect.m4v">
+	</video>  
 	
 		
 	
