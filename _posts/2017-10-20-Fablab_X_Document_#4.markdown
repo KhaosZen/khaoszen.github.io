@@ -41,8 +41,11 @@ tags: FABO-X
 	
 4. Editing and recreation:
 	+ Use Rhinoceros to edit and create as you wish!  
-	![gnsmodel](http://oxygvbxux.bkt.clouddn.com/gnsmodel.jpeg)  
+	![gnsmodel](http://oxygvbxux.bkt.clouddn.com/gnsmodel.jpeg)
+	
+5. Finished:  
 	![finished](http://oxygvbxux.bkt.clouddn.com/finished.jpeg)
+	![gnbspic](http://oxygvbxux.bkt.clouddn.com/gnbspic.jpg)
 	
 #### P.S.
 + Another kinect based scanning software [Skanect](skanect.occipital.com/)
