@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>CiGADC 2017 Notes / 中国独立游戏开发者大会现场笔记</title>
+  <meta name="description" content="本文仅为2017年的CiGADC（中国独立游戏联盟开发者大会）的Slide笔记，囿于时间限制，文本没有进行纠错和编辑，基本就是记笔记，记流水账，目前仅供随意查看。如若本人有时间会以十分缓慢的速度更新每个讲座的翻译和图片…">
+  <meta name="author" content="Wei Wang">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="CiGADC 2017 Notes / 中国独立游戏开发者大会现场笔记">
+  <meta name="twitter:description" content="本文仅为2017年的CiGADC（中国独立游戏联盟开发者大会）的Slide笔记，囿于时间限制，文本没有进行纠错和编辑，基本就是记笔记，记流水账，目前仅供随意查看。如若本人有时间会以十分缓慢的速度更新每个讲座的翻译和图片…">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="CiGADC 2017 Notes / 中国独立游戏开发者大会现场笔记">
+  <meta property="og:description" content="本文仅为2017年的CiGADC（中国独立游戏联盟开发者大会）的Slide笔记，囿于时间限制，文本没有进行纠错和编辑，基本就是记笔记，记流水账，目前仅供随意查看。如若本人有时间会以十分缓慢的速度更新每个讲座的翻译和图片…">
+  
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+  
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="canonical" href="http://localhost:4000/2017/10/CiGADC-%E8%A7%81%E9%97%BB/">
+  <link rel="alternate" type="application/rss+xml" title="Zen Space" href="http://localhost:4000/feed.xml">
+  
+  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
+  
+</head>
+
+
+  <body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+    
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url('/assets/images/background-cover.jpg')">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/#blog" title="前往 Zen Space 的主页" class="blog-button"><img src="/assets/images/avatar.jpg" width="80" alt="Zen Space logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for Zen Space" class="blog-button">Zen Space</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">Sharing opinions and funny things.</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">Gundam is men's romance | Core Gamer | Individual Sports Fan | Han Shot First | ShanghaiTech Undergraduate | Computer Science</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+        
+        <p class="panel-cover__description">Welcome to my house!</p>
+        
+        
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#blog" title="Visit blog" class="blog-button">Blog/我的博文</a></li>
+                
+                  <li class="navigation__item"><a href="index.html" target="_blank" title="Main">Main Page/主页</a></li>
+                
+                  <li class="navigation__item"><a href="theuglyduckling.html" target="_blank" title="Others">Others/其它</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+          
+          <div><nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  
+  <!-- Weibo -->
+  <li class="navigation__item">
+    <a href="http://weibo.com/Khaos_Zen" title="@Khaos_Zen 的微博" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
+    </a>
+  </li>
+  
+
+  
+  <!-- Github -->
+  <li class="navigation__item">
+    <a href="https://github.com/KhaosZen" title="@KhaosZen 的 Github" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+  
+  
+  
+  <!-- Twitter -->
+  <li class="navigation__item">
+    <a href="http://twitter.com/ZodiacXCyborg" title="@ZodiacXCyborg" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+  
+
+  
+
+  <!-- RSS -->
+  <li class="navigation__item">
+    <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+  
+  <!-- Email -->
+  <li class="navigation__item">
+    <a href="mailto:khaoszen@163.com" title="Contact me">
+      <i class='social fa fa-envelope'></i>
+      <span class="label">Email</span>
+    </a>
+  </li>
+  
+
+  </ul>
+</nav>
+</div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="panel-cover--overlay cover-disabled"></div>
+    
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2017-10-27 11:00:11 +0800" itemprop="datePublished" class="post-meta__date date">2017-10-27</time> &#8226; <span class="post-meta__tags tags">GameDesign</span>
+    </div>
+    <h1 class="post-title">CiGADC 2017 Notes / 中国独立游戏开发者大会现场笔记</h1>
+  </header>
+
+  <section class="post">
+    <p><strong>本文仅为2017年的CiGADC（中国独立游戏联盟开发者大会）的Slide笔记，囿于时间限制，文本没有进行纠错和编辑，基本就是记笔记，记流水账，目前仅供随意查看。如若本人有时间会以十分缓慢的速度更新每个讲座的翻译和图片…</strong></p>
+
+<h3 id="anne-toole-fitting-writers-into-the-game-development-process">Anne Toole Fitting Writers into the Game Development Process</h3>
+<ul>
+  <li>她做过啥：巫师初代 死亡岛 地平线：零之曙光 的剧本对话写作</li>
+  <li>Why story
+    <ul>
+      <li>Provides context and meaning</li>
+      <li>Guides player experience</li>
+      <li>Creates illusion of bigger world, more options</li>
+      <li>Motivates players</li>
+      <li>Draws in different types of players</li>
+      <li>Stirs emotions</li>
+    </ul>
+  </li>
+  <li>What is writing
+    <ul>
+      <li>Story</li>
+      <li>Dialog</li>
+      <li>Cutscenes</li>
+      <li>Descriptions</li>
+      <li>Writing is everywhere
+        <ul>
+          <li>Gameplay</li>
+          <li>Art.</li>
+          <li>Items</li>
+          <li>Locations</li>
+          <li>Level Design</li>
+          <li>Math</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>How did we get here?
+    <ul>
+      <li>Games are about play, not about writing.</li>
+      <li>We brought in big del Hollywood writers, and we couldn’t use anything they wrote!</li>
+      <li>I can totally write this myself!</li>
+    </ul>
+  </li>
+  <li>How do we get out?
+    <ul>
+      <li>Fun and be cooperative.</li>
+      <li>Pre-production
+        <ul>
+          <li>A better organizing principle</li>
+          <li>Tips for developing the idea
+            <ul>
+              <li>Dream big, but keep scope manageable</li>
+              <li>Balance collaboration with independent iteration</li>
+              <li>Everyone needs buy-in, but not everyone has final say. Leadership and communication is key.</li>
+              <li>Build the world, not just the story.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Early Production
+        <ul>
+          <li>Finalize game outline</li>
+          <li>Finalize cutscenes and voice over dialog.*</li>
+          <li>Write and implement with wanton abandon in quest- or story-heavy games.</li>
+          <li>
+            <ul>
+              <li>Could get you into the trouble later.</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Late Production
+        <ul>
+          <li>Bring in the writers!
+            <ul>
+              <li>Writing dialog for the first time.</li>
+              <li>Writing story for the first time</li>
+              <li>Writing and implementing more content</li>
+              <li>Fixing what got broke</li>
+            </ul>
+          </li>
+          <li>Writers late to the party
+            <ul>
+              <li><img src="" alt="" /></li>
+            </ul>
+          </li>
+          <li>Crating a win-win
+            <ul>
+              <li>What writers can do for you:
+                <ul>
+                  <li>Indentify what can be cut without nerfing story.</li>
+                  <li>Preserve story despite cuts</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>What you can do for your writers:
+            <ul>
+              <li>Give writers time to iterate on their productions</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>IT’S ALIVE!
+        <ul>
+          <li>Dreaming big pays off
+            <ul>
+              <li>Expanding the world through DLC and Live content(Eg. Of AC)</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="mathew-cott--the-make-of-dead-by-daylight">Mathew Cott ： The Make of Dead By Daylight</h3>
+<ul>
+  <li>Hide-And-Seek
+    <ul>
+      <li>Survivors: Find generators -&gt; Fix them -&gt; Escape</li>
+      <li>Killer: Find survivors -&gt; attack them -&gt; wrap them and sacrifice them</li>
+    </ul>
+  </li>
+  <li>The original goal:
+    <ul>
+      <li>To create a stressful, horror game, where you play as the villain</li>
+    </ul>
+  </li>
+  <li>The good prototype
+    <ul>
+      <li>[video]</li>
+      <li>Hide and seek is the way to go
+        <ul>
+          <li>one on one</li>
+          <li>Unbalanced</li>
+          <li>asymmetrical</li>
+          <li>as much randomness as possible</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Green light demo
+    <ul>
+      <li>Aplayable PC demo of 5 player asymmetrical multiplayer game</li>
+      <li>Cost:170k</li>
+      <li>Dates: Today- Oct 27th</li>
+    </ul>
+  </li>
+  <li>The fantasy
+    <ul>
+      <li>Slashers love the feel of power
+        <ul>
+          <li>Catch the scent</li>
+          <li>hunt</li>
+          <li>kill</li>
+        </ul>
+      </li>
+      <li>Survivors love the thrill of being scared
+        <ul>
+          <li>Tool up</li>
+          <li>Outsmart</li>
+          <li>Escape</li>
+        </ul>
+      </li>
+      <li>A game of horror, terror and ultimate survival
+        <ul>
+          <li>Each side has opposing goals: kill or escape</li>
+          <li>Both sides combine to create an experience of fear and terror</li>
+          <li>Slashers earn new powers that let them terrify their prey</li>
+        </ul>
+      </li>
+      <li>Fell the rush of a killer
+        <ul>
+          <li>Slashers singlehandedly hunt their prey</li>
+          <li>Taunt them to show who’s really in control</li>
+          <li>Toy with surgiros and terrify them into making mistakes</li>
+          <li>kill them all to win the game</li>
+        </ul>
+      </li>
+      <li>Experience the fear of survivor
+        <ul>
+          <li>Survivors work together to outsmart the killer</li>
+          <li>Explore and collect survival equipment</li>
+          <li>Cooperate to complete goals and objectives</li>
+          <li>Survive to share rewards and unlock new skills</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Every Game is Different
+    <ul>
+      <li>Multiple options</li>
+      <li>rewards</li>
+    </ul>
+  </li>
+  <li>Prototype goals
+    <ul>
+      <li>Fear is real</li>
+      <li>Visceral and terrifying conflict</li>
+      <li>Endless gameplay</li>
+    </ul>
+  </li>
+  <li>The importance of audio
+    <ul>
+      <li>Killers hunt by sound</li>
+      <li>Survivors hear the proximity</li>
+      <li>No voice</li>
+      <li>Music in horror</li>
+    </ul>
+  </li>
+  <li>It worked!</li>
+  <li>The big rules
+    <ul>
+      <li>No pay to win</li>
+      <li>No fracturing the community</li>
+      <li>We will be as generous as we can</li>
+      <li>角色：Doctor开发经历
+        <ul>
+          <li>失信于人的医生：让人感到惧怕</li>
+          <li>蒙特利尔：奇怪医生</li>
+          <li>全球各地灵感，比如你懂的</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="chris-chau-任天堂下载游戏的发行及地域市场经验汇总">Chris Chau: 任天堂下载游戏的发行及地域市场经验汇总</h3>
+<ul>
+  <li>关于CIRLE/FLYHIGH Works
+    <ul>
+      <li>主业务：
+        <ul>
+          <li>专注任天堂平台的游戏发行</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>产品成绩
+    <ul>
+      <li>3DS
+        <ul>
+          <li>Gunman Story(JP) 170000+</li>
+          <li>Witch &amp; Hero(GLB) 19000+</li>
+          <li>Urban Trial Freestyle(JP) 190000+</li>
+        </ul>
+      </li>
+      <li>Switch
+        <ul>
+          <li>VOEZ(GLB) 45000+</li>
+          <li>KAMIKO(神巫女)(GLB) 150000+</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>产品类型
+    <ul>
+      <li>商业产品</li>
+      <li>情怀产品</li>
+    </ul>
+  </li>
+  <li>热销产品特点
+    <ul>
+      <li>西方和日本市场共性
+        <ul>
+          <li>良好口碑游戏的移植</li>
+          <li>任天堂在社交媒体上推荐的产品</li>
+        </ul>
+      </li>
+      <li>关键字
+        <ul>
+          <li>复古/独特艺术风格/平台类/PARTY向/全年龄化/新作（非移植）/独占/取悦第一方类型的用户玩家/地域品牌</li>
+          <li>参考各国eShop排行榜上的常驻游戏</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>本地化策略
+    <ul>
+      <li>Eg.</li>
+      <li>英文版：Death Squared</li>
+      <li>日文版：ロロロロ</li>
+      <li>中文版：口口口口（ji）</li>
+    </ul>
+  </li>
+  <li>PR计划（ONLINE）
+    <ul>
+      <li>发售前一年展开频密报导</li>
+      <li>游戏本身硬实力获得主流媒体的高分评测</li>
+      <li>任天堂官方在社交媒体上给予曝光</li>
+      <li>首次公开内容极其重要，必须具有惊艳的信息</li>
+    </ul>
+  </li>
+  <li>PR计划（OFFLINE）
+    <ul>
+      <li><img src="" alt="" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="bringing-an-extraordinary-visual-experience-to-the-gaming-audience梦工厂出身美术现有一独立美术工作室与各大动画电影工作室合作">Bringing an Extraordinary Visual Experience to the Gaming Audience(梦工厂出身美术，现有一独立美术工作室，与各大动画电影工作室合作)</h3>
+<ul>
+  <li>色彩的搭配</li>
+  <li>全是图…总之就是色彩很重要，要和谐，要能有所偏重……例如在一堆相似和谐的色彩中用一个突出的反色来突出画面中的主角</li>
+</ul>
+
+<h3 id="yop-chan陈元鹏-of-veewo-game游戏作品的创造和延续">Yop Chan（陈元鹏） of Veewo Game：游戏作品的创造和延续</h3>
+<ul>
+  <li>Super Phantom Cat</li>
+  <li>App Store 2016年度精选</li>
+  <li>Super Mario-Like platformer</li>
+  <li>目的：勾起用户对超级马里奥兄弟的美好回忆，拒绝山寨体验</li>
+  <li>“差异化设计”</li>
+  <li>组成核心游戏性的指标
+    <ul>
+      <li>单局游戏体验的差异化
+        <ul>
+          <li>随机物重复率</li>
+          <li>怪物重复率</li>
+          <li>单局难度曲线</li>
+          <li>单局时长变化</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>横版平台动作游戏可玩性指标
+    <ul>
+      <li>操作：角色的可操作动作数量</li>
+      <li>互动元素：单关卡的交互丰富度，关卡之间的交互差异程度</li>
+      <li>关卡设计：关卡难度和关卡难度曲线，关卡长度</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="indie-mega-booth一个帮助独立游戏开发者参加展会设立展位的组织">Indie Mega Booth（一个帮助独立游戏开发者参加展会设立展位的组织）</h3>
+<ul>
+  <li>How IMB helps:
+    <ul>
+      <li>Exhibitions they attended
+        <ul>
+          <li>BITSUMMIT</li>
+          <li>GDC</li>
+          <li>E3</li>
+          <li>…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>How does IMB fit into this
+    <ul>
+      <li>Events</li>
+      <li>Curation</li>
+      <li>Planning</li>
+      <li>Marketing &amp; Promotive…</li>
+    </ul>
+  </li>
+  <li>What Do I Need?
+    <ul>
+      <li>Effective signs
+        <ul>
+          <li>Easy to read</li>
+          <li>Large Simple font</li>
+        </ul>
+      </li>
+      <li>Inviting Area</li>
+      <li>Great AV</li>
+      <li>Unique Design</li>
+      <li>Engaging People</li>
+      <li>Merchandise</li>
+      <li>Helpers</li>
+      <li>Essentials</li>
+      <li>A fun demo</li>
+    </ul>
+  </li>
+  <li>Building You
+    <ul>
+      <li>Networking with other Indes</li>
+      <li>Evan</li>
+    </ul>
+  </li>
+  <li>Success Stories
+    <ul>
+      <li>Niche Target Market</li>
+      <li>Community</li>
+      <li>Polish</li>
+      <li>Partnerships</li>
+      <li>Examples
+        <ul>
+          <li>Gang Beasts</li>
+          <li>Crypt of the Necro Dancer</li>
+          <li>Mini metro</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="唯晶科技-单机游戏新宣发对开发商与玩家的双向服务">唯晶科技 单机游戏“新”宣发：对开发商与玩家的双向服务</h3>
+<p>目前国内单机游戏的数字版的审批流程被归类为“网络游戏”</p>
+<ul>
+  <li>“新”单机游戏
+    <ul>
+      <li>被归类为“网络游戏”的新单机</li>
+      <li>随玩家期待成长的新单机</li>
+      <li>开发者与玩家共同建设的新单机</li>
+      <li>多平台多渠道开放式的发行机会</li>
+    </ul>
+  </li>
+  <li>“新”难题
+    <ul>
+      <li>用户高度细分、分散</li>
+      <li>海量游戏产品竞争</li>
+      <li>粗放式曝光的高昂代价</li>
+      <li>产品优点与缺点的极致放大</li>
+    </ul>
+  </li>
+  <li>细腻的发行包含哪些工作？
+    <ul>
+      <li>产品特点挖掘、定位、包装</li>
+      <li>建立开发商与产品的有效关联</li>
+      <li>围绕产品特点，多层次预热，积累玩家好奇心与好感度</li>
+      <li>合理规划不同平台、不同地区的上架顺与预售价关系</li>
+      <li>线下与线上活动的相互呼应、叠加</li>
+      <li>粉丝建立、维护、管理、累积，以及协同互动</li>
+      <li>与开发商搭配扮演的有效客户服务</li>
+      <li>各类第三方服务流程代管</li>
+      <li>盗版防治</li>
+      <li>危机公关</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="座谈会独立游戏如何做好发行与变现">座谈会：独立游戏如何做好发行与变现</h3>
+<ul>
+  <li>与会人员简介
+    <ul>
+      <li>鲍嵬伟 椰岛游戏CEO及联合创始人</li>
+      <li>曹侃 凉屋游戏合伙人</li>
+      <li>Thomas Rosenthal 《Digital Bros 意弟游》大中国区总经理，505 Games（泰拉瑞亚、传送门骑士……）</li>
+      <li>赵航 Henry YoMob优目科技创始人 &amp; COO</li>
+      <li>王春雨 Michael Mobvista产品总监</li>
+    </ul>
+  </li>
+  <li>聊天内容：
+    <ul>
+      <li>曹侃观点：
+        <ul>
+          <li>PC：steam国内付费玩家增长</li>
+          <li>手机：Taptap国内用户数量增长</li>
+          <li>更多用户品味提升，愿意为优秀游戏付费</li>
+          <li>新老玩家的新思考</li>
+          <li>元气骑士为例：
+            <ul>
+              <li>年轻玩家众多</li>
+              <li>玩家乐于表现分享自己的游戏生活</li>
+            </ul>
+          </li>
+          <li>平台希望游戏多元而不是一家独大
+            <ul>
+              <li>App Store为例，每天会提供更多关于游戏开发经历的报导，Google play也是如此</li>
+              <li>中小型团队不用过于在意宣传发行问题，这些问题可以交给宣发团队，开发者应更加投入到游戏设计开发上</li>
+              <li>玩家社群的建立和发展有利于游戏的宣传和传播（元气骑士为例）</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>椰岛观点
+        <ul>
+          <li>年轻玩家（特别是学生群体）成为游戏的主要消费群体</li>
+          <li>后发先至</li>
+        </ul>
+      </li>
+      <li>赵航观点
+        <ul>
+          <li>有些超出预期</li>
+          <li>渠道拓宽</li>
+          <li>如学生群体被压抑的爱好品味需求增长，细分需求增长</li>
+          <li>“为优质内容付费”趋势上涨</li>
+          <li>新主流即将到来，indie存在市场</li>
+          <li>现在注重变现领域、
+            <ul>
+              <li>帮助开发者利用广告合理变现</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>Thomas’s view
+        <ul>
+          <li>中国地区steam用户数量增长，中国玩家对海外游戏需求增长</li>
+          <li>中国玩家付费意愿变高，针对大中华地区玩家进行游戏本地化</li>
+          <li>近两年，精品indie发展十分迅猛</li>
+          <li>中文化后的游戏在销量上更容易获得增长</li>
+          <li>当今中国indie开发者的独立游戏是否能够“出海”
+            <ul>
+              <li>合作，互相发挥长处</li>
+              <li>建议：国际化思想</li>
+              <li>鲍嵬伟：全球化成本很高，文化、团队能力限制，要做好预调研</li>
+              <li>项目成本高，发行计划十分周密</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>王春雨观点：
+        <ul>
+          <li>独立游戏开发者变多</li>
+          <li>独立游戏将变得更有价值</li>
+          <li>indie开发者变现需求增长</li>
+          <li>独立游戏变现意见：
+            <ul>
+              <li>发展比较好的，大型开发者：自己寻找合作</li>
+              <li>小型：与广告资源商合作，最好寻求咨询公司</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="梁其伟从单机到手游再到单机手游喧嚣-困境-希望独立到商业商业到独立">梁其伟：从单机到手游再到单机+手游（喧嚣 困境 希望：独立到商业，商业到独立）</h3>
+<ul>
+  <li>2006年：
+    <ul>
+      <li>上学打草稿，构筑游戏框架</li>
+      <li>自己绘制场景，3年开发（RPG Maker）《雨血》</li>
+    </ul>
+  </li>
+  <li>2011年：
+    <ul>
+      <li>海外学成归国制作《雨血：夜城》</li>
+    </ul>
+  </li>
+  <li>2013年：
+    <ul>
+      <li>第一款Unity横版动作游戏《雨血前传：蜃楼》（国内销量30～40w套，无steam发行的情况下）</li>
+    </ul>
+  </li>
+  <li>2014年：进军手游，影之刃</li>
+  <li>2016年：影之刃2</li>
+  <li>困境凸显
+    <ul>
+      <li>泛用户暴增，忠实用户却停滞</li>
+      <li>产品的品牌形象淡化，甚至不如早起独立游戏时期</li>
+      <li>收入模型单一，没有一分钱盈利来自非游戏周边产品</li>
+      <li>在产品的核心竞争力上，只有单一题材，单一玩法的优势</li>
+    </ul>
+  </li>
+  <li>现在：全新理念运营
+    <ul>
+      <li>设定集等周边的发售</li>
+      <li>线下玩家社交活动</li>
+      <li>成立M-GAME：一个游戏实验室和极速原型小组</li>
+      <li>阎王不高兴（氪金手游）</li>
+      <li>影之刃ZERO（武侠+蒸汽朋克+地牢）复杂剧情+刷刷刷</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="dinosaur-polo-clubmini-metro-开发团队">Dinosaur Polo Club(Mini Metro 开发团队）</h3>
+<ul>
+  <li>如果你在现有类型里进行设计，你必须面对一个问题：如何让你的游戏体验在该类型中脱颖而出</li>
+  <li>采用日常现实生活中的体验可以是你的游戏体验更容易直接传达
+    <ul>
+      <li>名字很有用
+        <ul>
+          <li>游戏的名称应该用于帮助传达游戏的体验</li>
+          <li>不太有帮助的游戏名：
+            <ul>
+              <li>SUPERHOT 燥热</li>
+              <li>Assault Android Cactus 卡图斯：进击的机器人</li>
+              <li>The Sexy Brutal 迷人的残酷</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>利用游戏的一切体验来传达你的设计——包括名字！</li>
+</ul>
+
+<h3 id="刘莉莛-of-赤烛游戏返校-开发商-返校将本地元素推广到国际">刘莉莛 of 赤烛游戏（返校 开发商） 《返校》将本地元素推广到国际</h3>
+<ul>
+  <li>利用游戏讲一个关于台湾的故事
+    <ul>
+      <li>开发者小时候的回忆</li>
+    </ul>
+  </li>
+  <li>推向全球的问题：本地化
+    <ul>
+      <li>文化差异</li>
+    </ul>
+  </li>
+  <li>目标：在不影响游玩体验下，让国外玩家认识台湾文化</li>
+  <li>做的事
+    <ul>
+      <li>如果非做不可的事，就把事情分开做
+        <ul>
+          <li>省区繁琐宗教仪式，一次只讲一件事</li>
+        </ul>
+      </li>
+      <li>如果非说不可的话，就用视觉来说话</li>
+      <li>把游戏通用规范融入自己的特色
+        <ul>
+          <li>从民间传说取材，融入游戏机制
+            <ul>
+              <li>魍魉、暂时停止呼吸、脚尾饭……
+  +从鬼神信仰中取材，编至游戏机制</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>不好解释的东西，就偷吃步放进笔记本吧</li>
+  <li>就算听不懂，也很有时代感（VFX，声音）
+    <ul>
+      <li>流行音乐也是文化符号（Ex.四月望雨）</li>
+      <li>音乐华为时空转换机制</li>
+    </ul>
+  </li>
+  <li>尽可能的利用文化素材，产生最大化共鸣性。</li>
+  <li>翻译的处理：文化移植，重塑游戏世界观
+    <ul>
+      <li>译者：英语母语，文学背景</li>
+      <li>初步翻译：中英双母语者</li>
+      <li>文本产出：白话/新诗/台语各种文体</li>
+    </ul>
+  </li>
+  <li>角色对话也要注意
+    <ul>
+      <li>方言如何转化？
+        <ul>
+          <li><del>英文方言</del></li>
+          <li><del>古英文</del></li>
+          <li>诗歌式表达</li>
+        </ul>
+      </li>
+      <li>东亚独有的学长姐称谓
+        <ul>
+          <li>方学姐
+            <ul>
+              <li><del>Fang Senpai</del></li>
+              <li>Miss Fang</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>现有翻译无法通用时，就来造字（词）吧
+    <ul>
+      <li>阿弥陀佛（Amitabudha）</li>
+      <li>名称上强调意涵，增加记忆点</li>
+      <li>城隍爷：<del>City God</del> -&gt; justice Cheng Huang</li>
+      <li>黑白无常： HeiBai Wuchang</li>
+    </ul>
+  </li>
+  <li>杂感：
+    <ul>
+      <li>作品让开发者与世界对话</li>
+      <li>把玩家放在优先第一顺位</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="robin-hunnica-from-funomena-面向体验打造vr作品">Robin Hunnica from Funomena 面向体验打造VR作品</h3>
+<ul>
+  <li>Designing VR for feeling</li>
+  <li>EEE
+    <ul>
+      <li>Exellent</li>
+      <li>Elegant
+        <ul>
+          <li>Ease of production</li>
+        </ul>
+      </li>
+      <li>Expressive
+        <ul>
+          <li>Players Speak</li>
+          <li>Express response</li>
+        </ul>
+      </li>
+      <li>Emotional
+        <ul>
+          <li>New Feelings</li>
+          <li>Shaped by Feelings</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>A model of the expression of the games
+    <ul>
+      <li>Journey:
+        <ul>
+          <li>Empathy</li>
+        </ul>
+      </li>
+      <li>How do you do it
+        <ul>
+          <li>Concept your idea</li>
+          <li>Test your concept like it isn’t yours</li>
+          <li>Throw away stuff that isn’t good</li>
+          <li>Find the feeling in your idea</li>
+          <li>Prototype bunch and test</li>
+          <li>Throw away more to let go</li>
+          <li>So you can find the felling in your prototype</li>
+          <li>Repeat till done</li>
+          <li>(cost of a lot of time)</li>
+        </ul>
+      </li>
+      <li>Design loop and the communication with others.</li>
+    </ul>
+  </li>
+</ul>
+
+  </section>
+</article>
+
+<section class="read-more">
+   
+   
+   
+   
+   <div class="read-more-item">
+       <span class="read-more-item-dim">更早的文章</span>
+       <h2 class="post-list__post-title post-title"><a href="/2017/10/Fablab_X_Document_-4/" title="link to FABO X Document 4">FABO X Document 4</a></h2>
+       <p class="excerpt">3D ScanningThe procedure of Structed Light 3D Scanning and Editing  Select Scan-type(Ex. of Ein-Scan-Pro):           Fixed Mode:                  Set the scanner into a fixed position and scan.(For only small and bright objects but accurate)      ...&hellip;</p>
+       <div class="post-list__meta"><time datetime="2017-10-23 11:11:11 +0800" class="post-list__meta--date date">2017-10-23</time> &#8226; <span class="post-list__meta--tags tags">FABO-X</span><a class="btn-border-small" href=/2017/10/Fablab_X_Document_-4/>继续阅读</a></div>
+   </div>
+   
+</section>
+
+<section class="post-comments">
+  
+    <div id="disqus_thread"></div>
+    <script>
+    
+    var disqus_config = function () {
+        this.page.url = "http://localhost:4000/2017/10/CiGADC-%E8%A7%81%E9%97%BB/";
+        this.page.identifier = "/2017/10/CiGADC-%E8%A7%81%E9%97%BB/";
+    };
+
+    var disqus_shortname = 'khaoszen';
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>要查看<a href="http://disqus.com/?ref_noscript"> Disqus </a>评论，请启用 JavaScript</noscript>
+    
+  
+  
+  
+  
+</section>
+
+
+            <section class="footer">
+    <footer>
+    	<span class="footer__copyright">本站点采用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a></span>
+        <span class="footer__copyright">由 <a href="https://jekyllrb.com">Jekyll</a> 于 2017-10-28 生成</span>
+        <span class="footer__copyright">本站由 <a href="https://github.com/khaoszen">@KhaosZen</a> 创建，采用 <a href="weibo.com/onevcat">@onevcat</a>制作的<a href="https://github.com/onevcat/vno-jekyll">Vno - Jekyll</a> 作为主题，您可以在 GitHub 找到<a href="https://github.com/onevcat/OneV-s-Den">本站源码</a> - &copy; 2017</span>
+    </footer>
+</section>
+
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+
+    
+  </body>
+
+</html>

@@ -5,9 +5,735 @@
     <description>Gundam is men's romance | Core Gamer | Individual Sports Fan | Han Shot First | ShanghaiTech Undergraduate | Computer Science</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Oct 2017 11:39:43 +0800</pubDate>
-    <lastBuildDate>Tue, 24 Oct 2017 11:39:43 +0800</lastBuildDate>
+    <pubDate>Sat, 28 Oct 2017 00:06:53 +0800</pubDate>
+    <lastBuildDate>Sat, 28 Oct 2017 00:06:53 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>CiGADC 2017 Notes / 中国独立游戏开发者大会现场笔记</title>
+        <description>&lt;p&gt;&lt;strong&gt;本文仅为2017年的CiGADC（中国独立游戏联盟开发者大会）的Slide笔记，囿于时间限制，文本没有进行纠错和编辑，基本就是记笔记，记流水账，目前仅供随意查看。如若本人有时间会以十分缓慢的速度更新每个讲座的翻译和图片…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;anne-toole-fitting-writers-into-the-game-development-process&quot;&gt;Anne Toole Fitting Writers into the Game Development Process&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;她做过啥：巫师初代 死亡岛 地平线：零之曙光 的剧本对话写作&lt;/li&gt;
+  &lt;li&gt;Why story
+    &lt;ul&gt;
+      &lt;li&gt;Provides context and meaning&lt;/li&gt;
+      &lt;li&gt;Guides player experience&lt;/li&gt;
+      &lt;li&gt;Creates illusion of bigger world, more options&lt;/li&gt;
+      &lt;li&gt;Motivates players&lt;/li&gt;
+      &lt;li&gt;Draws in different types of players&lt;/li&gt;
+      &lt;li&gt;Stirs emotions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What is writing
+    &lt;ul&gt;
+      &lt;li&gt;Story&lt;/li&gt;
+      &lt;li&gt;Dialog&lt;/li&gt;
+      &lt;li&gt;Cutscenes&lt;/li&gt;
+      &lt;li&gt;Descriptions&lt;/li&gt;
+      &lt;li&gt;Writing is everywhere
+        &lt;ul&gt;
+          &lt;li&gt;Gameplay&lt;/li&gt;
+          &lt;li&gt;Art.&lt;/li&gt;
+          &lt;li&gt;Items&lt;/li&gt;
+          &lt;li&gt;Locations&lt;/li&gt;
+          &lt;li&gt;Level Design&lt;/li&gt;
+          &lt;li&gt;Math&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How did we get here?
+    &lt;ul&gt;
+      &lt;li&gt;Games are about play, not about writing.&lt;/li&gt;
+      &lt;li&gt;We brought in big del Hollywood writers, and we couldn’t use anything they wrote!&lt;/li&gt;
+      &lt;li&gt;I can totally write this myself!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How do we get out?
+    &lt;ul&gt;
+      &lt;li&gt;Fun and be cooperative.&lt;/li&gt;
+      &lt;li&gt;Pre-production
+        &lt;ul&gt;
+          &lt;li&gt;A better organizing principle&lt;/li&gt;
+          &lt;li&gt;Tips for developing the idea
+            &lt;ul&gt;
+              &lt;li&gt;Dream big, but keep scope manageable&lt;/li&gt;
+              &lt;li&gt;Balance collaboration with independent iteration&lt;/li&gt;
+              &lt;li&gt;Everyone needs buy-in, but not everyone has final say. Leadership and communication is key.&lt;/li&gt;
+              &lt;li&gt;Build the world, not just the story.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Early Production
+        &lt;ul&gt;
+          &lt;li&gt;Finalize game outline&lt;/li&gt;
+          &lt;li&gt;Finalize cutscenes and voice over dialog.*&lt;/li&gt;
+          &lt;li&gt;Write and implement with wanton abandon in quest- or story-heavy games.&lt;/li&gt;
+          &lt;li&gt;
+            &lt;ul&gt;
+              &lt;li&gt;Could get you into the trouble later.&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Late Production
+        &lt;ul&gt;
+          &lt;li&gt;Bring in the writers!
+            &lt;ul&gt;
+              &lt;li&gt;Writing dialog for the first time.&lt;/li&gt;
+              &lt;li&gt;Writing story for the first time&lt;/li&gt;
+              &lt;li&gt;Writing and implementing more content&lt;/li&gt;
+              &lt;li&gt;Fixing what got broke&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Writers late to the party
+            &lt;ul&gt;
+              &lt;li&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;Crating a win-win
+            &lt;ul&gt;
+              &lt;li&gt;What writers can do for you:
+                &lt;ul&gt;
+                  &lt;li&gt;Indentify what can be cut without nerfing story.&lt;/li&gt;
+                  &lt;li&gt;Preserve story despite cuts&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;What you can do for your writers:
+            &lt;ul&gt;
+              &lt;li&gt;Give writers time to iterate on their productions&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;IT’S ALIVE!
+        &lt;ul&gt;
+          &lt;li&gt;Dreaming big pays off
+            &lt;ul&gt;
+              &lt;li&gt;Expanding the world through DLC and Live content(Eg. Of AC)&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mathew-cott--the-make-of-dead-by-daylight&quot;&gt;Mathew Cott ： The Make of Dead By Daylight&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hide-And-Seek
+    &lt;ul&gt;
+      &lt;li&gt;Survivors: Find generators -&amp;gt; Fix them -&amp;gt; Escape&lt;/li&gt;
+      &lt;li&gt;Killer: Find survivors -&amp;gt; attack them -&amp;gt; wrap them and sacrifice them&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The original goal:
+    &lt;ul&gt;
+      &lt;li&gt;To create a stressful, horror game, where you play as the villain&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The good prototype
+    &lt;ul&gt;
+      &lt;li&gt;[video]&lt;/li&gt;
+      &lt;li&gt;Hide and seek is the way to go
+        &lt;ul&gt;
+          &lt;li&gt;one on one&lt;/li&gt;
+          &lt;li&gt;Unbalanced&lt;/li&gt;
+          &lt;li&gt;asymmetrical&lt;/li&gt;
+          &lt;li&gt;as much randomness as possible&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Green light demo
+    &lt;ul&gt;
+      &lt;li&gt;Aplayable PC demo of 5 player asymmetrical multiplayer game&lt;/li&gt;
+      &lt;li&gt;Cost:170k&lt;/li&gt;
+      &lt;li&gt;Dates: Today- Oct 27th&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The fantasy
+    &lt;ul&gt;
+      &lt;li&gt;Slashers love the feel of power
+        &lt;ul&gt;
+          &lt;li&gt;Catch the scent&lt;/li&gt;
+          &lt;li&gt;hunt&lt;/li&gt;
+          &lt;li&gt;kill&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Survivors love the thrill of being scared
+        &lt;ul&gt;
+          &lt;li&gt;Tool up&lt;/li&gt;
+          &lt;li&gt;Outsmart&lt;/li&gt;
+          &lt;li&gt;Escape&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;A game of horror, terror and ultimate survival
+        &lt;ul&gt;
+          &lt;li&gt;Each side has opposing goals: kill or escape&lt;/li&gt;
+          &lt;li&gt;Both sides combine to create an experience of fear and terror&lt;/li&gt;
+          &lt;li&gt;Slashers earn new powers that let them terrify their prey&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Fell the rush of a killer
+        &lt;ul&gt;
+          &lt;li&gt;Slashers singlehandedly hunt their prey&lt;/li&gt;
+          &lt;li&gt;Taunt them to show who’s really in control&lt;/li&gt;
+          &lt;li&gt;Toy with surgiros and terrify them into making mistakes&lt;/li&gt;
+          &lt;li&gt;kill them all to win the game&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Experience the fear of survivor
+        &lt;ul&gt;
+          &lt;li&gt;Survivors work together to outsmart the killer&lt;/li&gt;
+          &lt;li&gt;Explore and collect survival equipment&lt;/li&gt;
+          &lt;li&gt;Cooperate to complete goals and objectives&lt;/li&gt;
+          &lt;li&gt;Survive to share rewards and unlock new skills&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Every Game is Different
+    &lt;ul&gt;
+      &lt;li&gt;Multiple options&lt;/li&gt;
+      &lt;li&gt;rewards&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Prototype goals
+    &lt;ul&gt;
+      &lt;li&gt;Fear is real&lt;/li&gt;
+      &lt;li&gt;Visceral and terrifying conflict&lt;/li&gt;
+      &lt;li&gt;Endless gameplay&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The importance of audio
+    &lt;ul&gt;
+      &lt;li&gt;Killers hunt by sound&lt;/li&gt;
+      &lt;li&gt;Survivors hear the proximity&lt;/li&gt;
+      &lt;li&gt;No voice&lt;/li&gt;
+      &lt;li&gt;Music in horror&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;It worked!&lt;/li&gt;
+  &lt;li&gt;The big rules
+    &lt;ul&gt;
+      &lt;li&gt;No pay to win&lt;/li&gt;
+      &lt;li&gt;No fracturing the community&lt;/li&gt;
+      &lt;li&gt;We will be as generous as we can&lt;/li&gt;
+      &lt;li&gt;角色：Doctor开发经历
+        &lt;ul&gt;
+          &lt;li&gt;失信于人的医生：让人感到惧怕&lt;/li&gt;
+          &lt;li&gt;蒙特利尔：奇怪医生&lt;/li&gt;
+          &lt;li&gt;全球各地灵感，比如你懂的&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chris-chau-任天堂下载游戏的发行及地域市场经验汇总&quot;&gt;Chris Chau: 任天堂下载游戏的发行及地域市场经验汇总&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;关于CIRLE/FLYHIGH Works
+    &lt;ul&gt;
+      &lt;li&gt;主业务：
+        &lt;ul&gt;
+          &lt;li&gt;专注任天堂平台的游戏发行&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;产品成绩
+    &lt;ul&gt;
+      &lt;li&gt;3DS
+        &lt;ul&gt;
+          &lt;li&gt;Gunman Story(JP) 170000+&lt;/li&gt;
+          &lt;li&gt;Witch &amp;amp; Hero(GLB) 19000+&lt;/li&gt;
+          &lt;li&gt;Urban Trial Freestyle(JP) 190000+&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Switch
+        &lt;ul&gt;
+          &lt;li&gt;VOEZ(GLB) 45000+&lt;/li&gt;
+          &lt;li&gt;KAMIKO(神巫女)(GLB) 150000+&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;产品类型
+    &lt;ul&gt;
+      &lt;li&gt;商业产品&lt;/li&gt;
+      &lt;li&gt;情怀产品&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;热销产品特点
+    &lt;ul&gt;
+      &lt;li&gt;西方和日本市场共性
+        &lt;ul&gt;
+          &lt;li&gt;良好口碑游戏的移植&lt;/li&gt;
+          &lt;li&gt;任天堂在社交媒体上推荐的产品&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;关键字
+        &lt;ul&gt;
+          &lt;li&gt;复古/独特艺术风格/平台类/PARTY向/全年龄化/新作（非移植）/独占/取悦第一方类型的用户玩家/地域品牌&lt;/li&gt;
+          &lt;li&gt;参考各国eShop排行榜上的常驻游戏&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;本地化策略
+    &lt;ul&gt;
+      &lt;li&gt;Eg.&lt;/li&gt;
+      &lt;li&gt;英文版：Death Squared&lt;/li&gt;
+      &lt;li&gt;日文版：ロロロロ&lt;/li&gt;
+      &lt;li&gt;中文版：口口口口（ji）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PR计划（ONLINE）
+    &lt;ul&gt;
+      &lt;li&gt;发售前一年展开频密报导&lt;/li&gt;
+      &lt;li&gt;游戏本身硬实力获得主流媒体的高分评测&lt;/li&gt;
+      &lt;li&gt;任天堂官方在社交媒体上给予曝光&lt;/li&gt;
+      &lt;li&gt;首次公开内容极其重要，必须具有惊艳的信息&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;PR计划（OFFLINE）
+    &lt;ul&gt;
+      &lt;li&gt;&lt;img src=&quot;&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bringing-an-extraordinary-visual-experience-to-the-gaming-audience梦工厂出身美术现有一独立美术工作室与各大动画电影工作室合作&quot;&gt;Bringing an Extraordinary Visual Experience to the Gaming Audience(梦工厂出身美术，现有一独立美术工作室，与各大动画电影工作室合作)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;色彩的搭配&lt;/li&gt;
+  &lt;li&gt;全是图…总之就是色彩很重要，要和谐，要能有所偏重……例如在一堆相似和谐的色彩中用一个突出的反色来突出画面中的主角&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;yop-chan陈元鹏-of-veewo-game游戏作品的创造和延续&quot;&gt;Yop Chan（陈元鹏） of Veewo Game：游戏作品的创造和延续&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Super Phantom Cat&lt;/li&gt;
+  &lt;li&gt;App Store 2016年度精选&lt;/li&gt;
+  &lt;li&gt;Super Mario-Like platformer&lt;/li&gt;
+  &lt;li&gt;目的：勾起用户对超级马里奥兄弟的美好回忆，拒绝山寨体验&lt;/li&gt;
+  &lt;li&gt;“差异化设计”&lt;/li&gt;
+  &lt;li&gt;组成核心游戏性的指标
+    &lt;ul&gt;
+      &lt;li&gt;单局游戏体验的差异化
+        &lt;ul&gt;
+          &lt;li&gt;随机物重复率&lt;/li&gt;
+          &lt;li&gt;怪物重复率&lt;/li&gt;
+          &lt;li&gt;单局难度曲线&lt;/li&gt;
+          &lt;li&gt;单局时长变化&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;横版平台动作游戏可玩性指标
+    &lt;ul&gt;
+      &lt;li&gt;操作：角色的可操作动作数量&lt;/li&gt;
+      &lt;li&gt;互动元素：单关卡的交互丰富度，关卡之间的交互差异程度&lt;/li&gt;
+      &lt;li&gt;关卡设计：关卡难度和关卡难度曲线，关卡长度&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;indie-mega-booth一个帮助独立游戏开发者参加展会设立展位的组织&quot;&gt;Indie Mega Booth（一个帮助独立游戏开发者参加展会设立展位的组织）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;How IMB helps:
+    &lt;ul&gt;
+      &lt;li&gt;Exhibitions they attended
+        &lt;ul&gt;
+          &lt;li&gt;BITSUMMIT&lt;/li&gt;
+          &lt;li&gt;GDC&lt;/li&gt;
+          &lt;li&gt;E3&lt;/li&gt;
+          &lt;li&gt;…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How does IMB fit into this
+    &lt;ul&gt;
+      &lt;li&gt;Events&lt;/li&gt;
+      &lt;li&gt;Curation&lt;/li&gt;
+      &lt;li&gt;Planning&lt;/li&gt;
+      &lt;li&gt;Marketing &amp;amp; Promotive…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What Do I Need?
+    &lt;ul&gt;
+      &lt;li&gt;Effective signs
+        &lt;ul&gt;
+          &lt;li&gt;Easy to read&lt;/li&gt;
+          &lt;li&gt;Large Simple font&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Inviting Area&lt;/li&gt;
+      &lt;li&gt;Great AV&lt;/li&gt;
+      &lt;li&gt;Unique Design&lt;/li&gt;
+      &lt;li&gt;Engaging People&lt;/li&gt;
+      &lt;li&gt;Merchandise&lt;/li&gt;
+      &lt;li&gt;Helpers&lt;/li&gt;
+      &lt;li&gt;Essentials&lt;/li&gt;
+      &lt;li&gt;A fun demo&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Building You
+    &lt;ul&gt;
+      &lt;li&gt;Networking with other Indes&lt;/li&gt;
+      &lt;li&gt;Evan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Success Stories
+    &lt;ul&gt;
+      &lt;li&gt;Niche Target Market&lt;/li&gt;
+      &lt;li&gt;Community&lt;/li&gt;
+      &lt;li&gt;Polish&lt;/li&gt;
+      &lt;li&gt;Partnerships&lt;/li&gt;
+      &lt;li&gt;Examples
+        &lt;ul&gt;
+          &lt;li&gt;Gang Beasts&lt;/li&gt;
+          &lt;li&gt;Crypt of the Necro Dancer&lt;/li&gt;
+          &lt;li&gt;Mini metro&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;唯晶科技-单机游戏新宣发对开发商与玩家的双向服务&quot;&gt;唯晶科技 单机游戏“新”宣发：对开发商与玩家的双向服务&lt;/h3&gt;
+&lt;p&gt;目前国内单机游戏的数字版的审批流程被归类为“网络游戏”&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“新”单机游戏
+    &lt;ul&gt;
+      &lt;li&gt;被归类为“网络游戏”的新单机&lt;/li&gt;
+      &lt;li&gt;随玩家期待成长的新单机&lt;/li&gt;
+      &lt;li&gt;开发者与玩家共同建设的新单机&lt;/li&gt;
+      &lt;li&gt;多平台多渠道开放式的发行机会&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;“新”难题
+    &lt;ul&gt;
+      &lt;li&gt;用户高度细分、分散&lt;/li&gt;
+      &lt;li&gt;海量游戏产品竞争&lt;/li&gt;
+      &lt;li&gt;粗放式曝光的高昂代价&lt;/li&gt;
+      &lt;li&gt;产品优点与缺点的极致放大&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;细腻的发行包含哪些工作？
+    &lt;ul&gt;
+      &lt;li&gt;产品特点挖掘、定位、包装&lt;/li&gt;
+      &lt;li&gt;建立开发商与产品的有效关联&lt;/li&gt;
+      &lt;li&gt;围绕产品特点，多层次预热，积累玩家好奇心与好感度&lt;/li&gt;
+      &lt;li&gt;合理规划不同平台、不同地区的上架顺与预售价关系&lt;/li&gt;
+      &lt;li&gt;线下与线上活动的相互呼应、叠加&lt;/li&gt;
+      &lt;li&gt;粉丝建立、维护、管理、累积，以及协同互动&lt;/li&gt;
+      &lt;li&gt;与开发商搭配扮演的有效客户服务&lt;/li&gt;
+      &lt;li&gt;各类第三方服务流程代管&lt;/li&gt;
+      &lt;li&gt;盗版防治&lt;/li&gt;
+      &lt;li&gt;危机公关&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;座谈会独立游戏如何做好发行与变现&quot;&gt;座谈会：独立游戏如何做好发行与变现&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;与会人员简介
+    &lt;ul&gt;
+      &lt;li&gt;鲍嵬伟 椰岛游戏CEO及联合创始人&lt;/li&gt;
+      &lt;li&gt;曹侃 凉屋游戏合伙人&lt;/li&gt;
+      &lt;li&gt;Thomas Rosenthal 《Digital Bros 意弟游》大中国区总经理，505 Games（泰拉瑞亚、传送门骑士……）&lt;/li&gt;
+      &lt;li&gt;赵航 Henry YoMob优目科技创始人 &amp;amp; COO&lt;/li&gt;
+      &lt;li&gt;王春雨 Michael Mobvista产品总监&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;聊天内容：
+    &lt;ul&gt;
+      &lt;li&gt;曹侃观点：
+        &lt;ul&gt;
+          &lt;li&gt;PC：steam国内付费玩家增长&lt;/li&gt;
+          &lt;li&gt;手机：Taptap国内用户数量增长&lt;/li&gt;
+          &lt;li&gt;更多用户品味提升，愿意为优秀游戏付费&lt;/li&gt;
+          &lt;li&gt;新老玩家的新思考&lt;/li&gt;
+          &lt;li&gt;元气骑士为例：
+            &lt;ul&gt;
+              &lt;li&gt;年轻玩家众多&lt;/li&gt;
+              &lt;li&gt;玩家乐于表现分享自己的游戏生活&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+          &lt;li&gt;平台希望游戏多元而不是一家独大
+            &lt;ul&gt;
+              &lt;li&gt;App Store为例，每天会提供更多关于游戏开发经历的报导，Google play也是如此&lt;/li&gt;
+              &lt;li&gt;中小型团队不用过于在意宣传发行问题，这些问题可以交给宣发团队，开发者应更加投入到游戏设计开发上&lt;/li&gt;
+              &lt;li&gt;玩家社群的建立和发展有利于游戏的宣传和传播（元气骑士为例）&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;椰岛观点
+        &lt;ul&gt;
+          &lt;li&gt;年轻玩家（特别是学生群体）成为游戏的主要消费群体&lt;/li&gt;
+          &lt;li&gt;后发先至&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;赵航观点
+        &lt;ul&gt;
+          &lt;li&gt;有些超出预期&lt;/li&gt;
+          &lt;li&gt;渠道拓宽&lt;/li&gt;
+          &lt;li&gt;如学生群体被压抑的爱好品味需求增长，细分需求增长&lt;/li&gt;
+          &lt;li&gt;“为优质内容付费”趋势上涨&lt;/li&gt;
+          &lt;li&gt;新主流即将到来，indie存在市场&lt;/li&gt;
+          &lt;li&gt;现在注重变现领域、
+            &lt;ul&gt;
+              &lt;li&gt;帮助开发者利用广告合理变现&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Thomas’s view
+        &lt;ul&gt;
+          &lt;li&gt;中国地区steam用户数量增长，中国玩家对海外游戏需求增长&lt;/li&gt;
+          &lt;li&gt;中国玩家付费意愿变高，针对大中华地区玩家进行游戏本地化&lt;/li&gt;
+          &lt;li&gt;近两年，精品indie发展十分迅猛&lt;/li&gt;
+          &lt;li&gt;中文化后的游戏在销量上更容易获得增长&lt;/li&gt;
+          &lt;li&gt;当今中国indie开发者的独立游戏是否能够“出海”
+            &lt;ul&gt;
+              &lt;li&gt;合作，互相发挥长处&lt;/li&gt;
+              &lt;li&gt;建议：国际化思想&lt;/li&gt;
+              &lt;li&gt;鲍嵬伟：全球化成本很高，文化、团队能力限制，要做好预调研&lt;/li&gt;
+              &lt;li&gt;项目成本高，发行计划十分周密&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;王春雨观点：
+        &lt;ul&gt;
+          &lt;li&gt;独立游戏开发者变多&lt;/li&gt;
+          &lt;li&gt;独立游戏将变得更有价值&lt;/li&gt;
+          &lt;li&gt;indie开发者变现需求增长&lt;/li&gt;
+          &lt;li&gt;独立游戏变现意见：
+            &lt;ul&gt;
+              &lt;li&gt;发展比较好的，大型开发者：自己寻找合作&lt;/li&gt;
+              &lt;li&gt;小型：与广告资源商合作，最好寻求咨询公司&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;梁其伟从单机到手游再到单机手游喧嚣-困境-希望独立到商业商业到独立&quot;&gt;梁其伟：从单机到手游再到单机+手游（喧嚣 困境 希望：独立到商业，商业到独立）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;2006年：
+    &lt;ul&gt;
+      &lt;li&gt;上学打草稿，构筑游戏框架&lt;/li&gt;
+      &lt;li&gt;自己绘制场景，3年开发（RPG Maker）《雨血》&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2011年：
+    &lt;ul&gt;
+      &lt;li&gt;海外学成归国制作《雨血：夜城》&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2013年：
+    &lt;ul&gt;
+      &lt;li&gt;第一款Unity横版动作游戏《雨血前传：蜃楼》（国内销量30～40w套，无steam发行的情况下）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;2014年：进军手游，影之刃&lt;/li&gt;
+  &lt;li&gt;2016年：影之刃2&lt;/li&gt;
+  &lt;li&gt;困境凸显
+    &lt;ul&gt;
+      &lt;li&gt;泛用户暴增，忠实用户却停滞&lt;/li&gt;
+      &lt;li&gt;产品的品牌形象淡化，甚至不如早起独立游戏时期&lt;/li&gt;
+      &lt;li&gt;收入模型单一，没有一分钱盈利来自非游戏周边产品&lt;/li&gt;
+      &lt;li&gt;在产品的核心竞争力上，只有单一题材，单一玩法的优势&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;现在：全新理念运营
+    &lt;ul&gt;
+      &lt;li&gt;设定集等周边的发售&lt;/li&gt;
+      &lt;li&gt;线下玩家社交活动&lt;/li&gt;
+      &lt;li&gt;成立M-GAME：一个游戏实验室和极速原型小组&lt;/li&gt;
+      &lt;li&gt;阎王不高兴（氪金手游）&lt;/li&gt;
+      &lt;li&gt;影之刃ZERO（武侠+蒸汽朋克+地牢）复杂剧情+刷刷刷&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dinosaur-polo-clubmini-metro-开发团队&quot;&gt;Dinosaur Polo Club(Mini Metro 开发团队）&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;如果你在现有类型里进行设计，你必须面对一个问题：如何让你的游戏体验在该类型中脱颖而出&lt;/li&gt;
+  &lt;li&gt;采用日常现实生活中的体验可以是你的游戏体验更容易直接传达
+    &lt;ul&gt;
+      &lt;li&gt;名字很有用
+        &lt;ul&gt;
+          &lt;li&gt;游戏的名称应该用于帮助传达游戏的体验&lt;/li&gt;
+          &lt;li&gt;不太有帮助的游戏名：
+            &lt;ul&gt;
+              &lt;li&gt;SUPERHOT 燥热&lt;/li&gt;
+              &lt;li&gt;Assault Android Cactus 卡图斯：进击的机器人&lt;/li&gt;
+              &lt;li&gt;The Sexy Brutal 迷人的残酷&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;利用游戏的一切体验来传达你的设计——包括名字！&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;刘莉莛-of-赤烛游戏返校-开发商-返校将本地元素推广到国际&quot;&gt;刘莉莛 of 赤烛游戏（返校 开发商） 《返校》将本地元素推广到国际&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;利用游戏讲一个关于台湾的故事
+    &lt;ul&gt;
+      &lt;li&gt;开发者小时候的回忆&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;推向全球的问题：本地化
+    &lt;ul&gt;
+      &lt;li&gt;文化差异&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;目标：在不影响游玩体验下，让国外玩家认识台湾文化&lt;/li&gt;
+  &lt;li&gt;做的事
+    &lt;ul&gt;
+      &lt;li&gt;如果非做不可的事，就把事情分开做
+        &lt;ul&gt;
+          &lt;li&gt;省区繁琐宗教仪式，一次只讲一件事&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;如果非说不可的话，就用视觉来说话&lt;/li&gt;
+      &lt;li&gt;把游戏通用规范融入自己的特色
+        &lt;ul&gt;
+          &lt;li&gt;从民间传说取材，融入游戏机制
+            &lt;ul&gt;
+              &lt;li&gt;魍魉、暂时停止呼吸、脚尾饭……
+  +从鬼神信仰中取材，编至游戏机制&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;不好解释的东西，就偷吃步放进笔记本吧&lt;/li&gt;
+  &lt;li&gt;就算听不懂，也很有时代感（VFX，声音）
+    &lt;ul&gt;
+      &lt;li&gt;流行音乐也是文化符号（Ex.四月望雨）&lt;/li&gt;
+      &lt;li&gt;音乐华为时空转换机制&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;尽可能的利用文化素材，产生最大化共鸣性。&lt;/li&gt;
+  &lt;li&gt;翻译的处理：文化移植，重塑游戏世界观
+    &lt;ul&gt;
+      &lt;li&gt;译者：英语母语，文学背景&lt;/li&gt;
+      &lt;li&gt;初步翻译：中英双母语者&lt;/li&gt;
+      &lt;li&gt;文本产出：白话/新诗/台语各种文体&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;角色对话也要注意
+    &lt;ul&gt;
+      &lt;li&gt;方言如何转化？
+        &lt;ul&gt;
+          &lt;li&gt;&lt;del&gt;英文方言&lt;/del&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;del&gt;古英文&lt;/del&gt;&lt;/li&gt;
+          &lt;li&gt;诗歌式表达&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;东亚独有的学长姐称谓
+        &lt;ul&gt;
+          &lt;li&gt;方学姐
+            &lt;ul&gt;
+              &lt;li&gt;&lt;del&gt;Fang Senpai&lt;/del&gt;&lt;/li&gt;
+              &lt;li&gt;Miss Fang&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;现有翻译无法通用时，就来造字（词）吧
+    &lt;ul&gt;
+      &lt;li&gt;阿弥陀佛（Amitabudha）&lt;/li&gt;
+      &lt;li&gt;名称上强调意涵，增加记忆点&lt;/li&gt;
+      &lt;li&gt;城隍爷：&lt;del&gt;City God&lt;/del&gt; -&amp;gt; justice Cheng Huang&lt;/li&gt;
+      &lt;li&gt;黑白无常： HeiBai Wuchang&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;杂感：
+    &lt;ul&gt;
+      &lt;li&gt;作品让开发者与世界对话&lt;/li&gt;
+      &lt;li&gt;把玩家放在优先第一顺位&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;robin-hunnica-from-funomena-面向体验打造vr作品&quot;&gt;Robin Hunnica from Funomena 面向体验打造VR作品&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Designing VR for feeling&lt;/li&gt;
+  &lt;li&gt;EEE
+    &lt;ul&gt;
+      &lt;li&gt;Exellent&lt;/li&gt;
+      &lt;li&gt;Elegant
+        &lt;ul&gt;
+          &lt;li&gt;Ease of production&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Expressive
+        &lt;ul&gt;
+          &lt;li&gt;Players Speak&lt;/li&gt;
+          &lt;li&gt;Express response&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Emotional
+        &lt;ul&gt;
+          &lt;li&gt;New Feelings&lt;/li&gt;
+          &lt;li&gt;Shaped by Feelings&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A model of the expression of the games
+    &lt;ul&gt;
+      &lt;li&gt;Journey:
+        &lt;ul&gt;
+          &lt;li&gt;Empathy&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;How do you do it
+        &lt;ul&gt;
+          &lt;li&gt;Concept your idea&lt;/li&gt;
+          &lt;li&gt;Test your concept like it isn’t yours&lt;/li&gt;
+          &lt;li&gt;Throw away stuff that isn’t good&lt;/li&gt;
+          &lt;li&gt;Find the feeling in your idea&lt;/li&gt;
+          &lt;li&gt;Prototype bunch and test&lt;/li&gt;
+          &lt;li&gt;Throw away more to let go&lt;/li&gt;
+          &lt;li&gt;So you can find the felling in your prototype&lt;/li&gt;
+          &lt;li&gt;Repeat till done&lt;/li&gt;
+          &lt;li&gt;(cost of a lot of time)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Design loop and the communication with others.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 27 Oct 2017 11:00:11 +0800</pubDate>
+        <link>http://localhost:4000/2017/10/CiGADC-%E8%A7%81%E9%97%BB/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/CiGADC-%E8%A7%81%E9%97%BB/</guid>
+        
+        <category>Game</category>
+        
+        <category>Design</category>
+        
+        
+      </item>
     
       <item>
         <title>FABO X Document 4</title>
@@ -53,8 +779,8 @@
  &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/baozi1.jpg&quot; alt=&quot;baozi1&quot; /&gt;
  &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/baozi2.jpg&quot; alt=&quot;baozi2&quot; /&gt;
  &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg&quot; alt=&quot;GNBS1&quot; /&gt;&lt;br /&gt;
- &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg&quot; alt=&quot;GNBS2&quot; /&gt;&lt;br /&gt;
- &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/GNBS1.jpg&quot; alt=&quot;GNBS3&quot; /&gt;&lt;/li&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/GNBS2.jpg&quot; alt=&quot;GNBS2&quot; /&gt;&lt;br /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/GNBS3.jpg&quot; alt=&quot;GNBS3&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;Model repairing:
@@ -68,10 +794,12 @@
   &lt;li&gt;Editing and recreation:
     &lt;ul&gt;
       &lt;li&gt;Use Rhinoceros to edit and create as you wish!&lt;br /&gt;
- &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/gnsmodel.jpeg&quot; alt=&quot;gnsmodel&quot; /&gt;&lt;br /&gt;
- &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/finished.jpeg&quot; alt=&quot;finished&quot; /&gt;&lt;/li&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/gnsmodel.jpeg&quot; alt=&quot;gnsmodel&quot; /&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;Finished:&lt;br /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/finished.jpeg&quot; alt=&quot;finished&quot; /&gt;
+ &lt;img src=&quot;http://oxygvbxux.bkt.clouddn.com/gnbspic.jpg&quot; alt=&quot;gnbspic&quot; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h4 id=&quot;ps&quot;&gt;P.S.&lt;/h4&gt;
