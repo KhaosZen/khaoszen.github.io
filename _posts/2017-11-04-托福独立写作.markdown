@@ -1,0 +1,51 @@
+---
+layout: post  
+title: 托福独立写作 / TOEFL Independent Writing
+date: 2017-11-04 11:11:11.000000000 +08:00  
+tags: FABO-X  
+---
+
++ 5分档评分标准
+	+ An essay at this level largely accomplishes all of the following：
+		+ Effectively addresses the topic and task
+		+ Is well organized and well developed, using clearly appropriate explanations, exemplifications
+		+ Displays unity, progression, and coherence
++ Analysis & Conception / 审题与构思
+	+ 题型——呈现形式
+		+ Agree or Disagree / 同意不同意
+		+ Preference / 偏好（二选一、三选一、不定项选择）
+		+ 利弊题
+		+ 是非题：讨论事物的存在状态，而不是比较优劣（今昔对比是典型的是非题）
+		+ 利弊&是非（绝对题）：
+			+ Ex. 题干中有："The most important incention in the history is [...]"	+ 论点
+		+ 如何选择中心论点
+			+ 相信自己的第一反应，读题之后下意识想到的选项便是文章读主题
+			+ 个人观点（选择）不需要标新立异引人注目，反而越普通常见越好
+		+ 分论点的要求
+			+ 同个人观点，无需标新立异与众不同
+			+ 切题，为你的观点服务，支持自己的立场
+		+ 分论点的忌讳
+			+ 互相重复或重叠
+			+ 互相包含
+			+ 互为因果
+			+ 违背基本的常识、逻辑或价值观，或谈论政治敏感话题 
+		+ 方法一：万能理由——利弊题
+			+ 支持某一观点 -> 列举其好处
+			+ 不论支持的是人还是物，都可以通过以下几个方面考虑：
+				+ 本身特质：省时？省力？省钱？安全？美观？自由？
+				+ 对个人的影响：拓展知识？培养能力？有利健康？
+				+ 对团体的影响：团队合作？增进感情？
+				+ 对社会/国家的影响：经济？科技？文化？环境？稳定？
+
+		+ 方法二；拆分
+			+ 将题目中的某个成分，拆分成不同方面，对题目进行剖析，从而达到论证的目的    
+			1. 人/事物的拆分
+				+ Technology has made people less creative than they were in the past.
+					+ 将Technology拆分成TV（无脑学） + Internet（无脑查） + Cell Phone（无脑问） 
+			2. 时间的拆分
+				+ 父母是最好的老师
+			3. 地点的拆分
+				+ The best way to travel is being in agroup led by a tour guide.
+				+ 在人烟稀少的地方
+				+ 在语言不通的地方
+				+ 在有奇特文化习俗的地方
