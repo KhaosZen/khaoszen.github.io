@@ -9,4 +9,4 @@ tags: FABO-X
 ### Exercise: Solder Our Own Shanghaino Board
 #### A list of Shanghaino
 + PCB made in [last course](https://khaoszen.github.io/2017/11/Fablab_X_Document_-5/).  
-+ ATMEGA328 $\times$ 1
++ ATMEGA328 * 1
