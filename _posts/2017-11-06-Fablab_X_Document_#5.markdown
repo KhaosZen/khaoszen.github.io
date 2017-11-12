@@ -38,6 +38,6 @@ tags: FABO-X
 	
 #### Some troubles
 Though the PCB board is finished, there are some troubles exist. We can see there are some thin copper leftover on the final PCB board.  
-	![trouble](http://oxygvbxux.bkt.clouddn.com/IMG_5753.jpg) 
+	![trouble](http://oxygvbxux.bkt.clouddn.com/trouble.jpeg)     
 To solve the trouble, the parameters should be changed.  
 ![solve](http://oxygvbxux.bkt.clouddn.com/paras2.jpeg) 
