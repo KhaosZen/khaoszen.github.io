@@ -22,8 +22,8 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Main Page/主页, description: Main, url: 'index.html'}
-    - {title: Others/其它, description: Others, url: 'theuglyduckling.html'}
+    - {title: Main Page/主页, description: Main, url: '\index.html'}
+    - {title: Others/其它, description: Others, url: '\theuglyduckling.html'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
