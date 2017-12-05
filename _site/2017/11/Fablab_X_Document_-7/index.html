@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>FABO X Document 7</title>
+  <meta name="description" content="ProgrammingExercise:Use the Arduino IDE to write or modify a program with I/O devices. Assemble your circuit on a breadboard and test it.A Ultrasonic-sensor-...">
+  <meta name="author" content="Wei Wang">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="FABO X Document 7">
+  <meta name="twitter:description" content="ProgrammingExercise:Use the Arduino IDE to write or modify a program with I/O devices. Assemble your circuit on a breadboard and test it.A Ultrasonic-sensor-...">
+  
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="FABO X Document 7">
+  <meta property="og:description" content="ProgrammingExercise:Use the Arduino IDE to write or modify a program with I/O devices. Assemble your circuit on a breadboard and test it.A Ultrasonic-sensor-...">
+  
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+  <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+  
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="canonical" href="http://localhost:4000/2017/11/Fablab_X_Document_-7/">
+  <link rel="alternate" type="application/rss+xml" title="ウェイスト·ランド" href="http://localhost:4000/feed.xml">
+  
+  <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
+  
+</head>
+
+
+  <body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+    
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url('/assets/images/background-cover.jpg')">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/#blog" title="前往 ウェイスト·ランド 的主页" class="blog-button"><img src="/assets/images/avatar.jpg" width="80" alt="ウェイスト·ランド logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/#blog" title="link to homepage for ウェイスト·ランド" class="blog-button">ウェイスト·ランド</a></h1>
+        
+        <span class="panel-cover__subtitle panel-subtitle">ようこそ私の廃土ヘ。</span>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">Gundam is men's romance | Core Gamer | Individual Sports Fan | Han Shot First | Computer Science</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+        
+        <p class="panel-cover__description">“Sometimes to love someone. You got to be a stranger.” -- Rick Deckard</p>
+        
+        
+        <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#blog" title="Visit blog" class="blog-button">Blog/我的博文</a></li>
+                
+                  <li class="navigation__item"><a href="\index.html" target="_blank" title="Main">Main Page/主页</a></li>
+                
+                  <li class="navigation__item"><a href="\theuglyduckling.html" target="_blank" title="Others">Others/其它</a></li>
+                
+              </ul>
+            </nav>
+          </div>
+          
+          <div><nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  
+  <!-- Weibo -->
+  <li class="navigation__item">
+    <a href="http://weibo.com/khaoszen" title="@khaoszen 的微博" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
+    </a>
+  </li>
+  
+
+  
+  <!-- Github -->
+  <li class="navigation__item">
+    <a href="https://github.com/KhaosZen" title="@KhaosZen 的 Github" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+  
+  
+  
+  <!-- Twitter -->
+  <li class="navigation__item">
+    <a href="http://twitter.com/ZodiacXCyborg" title="@ZodiacXCyborg" target="_blank">
+      <i class='social fa fa-twitter'></i>
+      <span class="label">Twitter</span>
+    </a>
+  </li>
+  
+
+  
+
+  <!-- RSS -->
+  <li class="navigation__item">
+    <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+  
+  <!-- Email -->
+  <li class="navigation__item">
+    <a href="mailto:khaoszen@163.com" title="Contact me">
+      <i class='social fa fa-envelope'></i>
+      <span class="label">Email</span>
+    </a>
+  </li>
+  
+
+  </ul>
+</nav>
+</div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="panel-cover--overlay cover-disabled"></div>
+    
+  </div>
+</header>
+
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <script>
+	(function(){
+		if(''){
+			if (prompt('请输入文章密码','') !== ''){
+				alert('密码错误！');
+				history.back();
+			}
+		}
+	})();
+</script>
+<article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2017-11-20 11:11:11 +0800" itemprop="datePublished" class="post-meta__date date">2017-11-20</time> &#8226; <span class="post-meta__tags tags">FABO-X</span>
+    </div>
+    <h1 class="post-title">FABO X Document 7</h1>
+  </header>
+
+  <section class="post">
+    <h2 id="programming">Programming</h2>
+<h3 id="exerciseuse-the-arduino-ide-to-write-or-modify-a-program-with-io-devices-assemble-your-circuit-on-a-breadboard-and-test-it">Exercise:Use the Arduino IDE to write or modify a program with I/O devices. Assemble your circuit on a breadboard and test it.</h3>
+<h4 id="a-ultrasonic-sensor-based-gradully-changed-rgb-led">A Ultrasonic-sensor-based gradully changed RGB LED</h4>
+<p>The LED would change its own color gradully with the distance of the object related to the ultra-sonic sensor.</p>
+
+<p>A list of the items here:</p>
+
+<ul>
+  <li>Wires</li>
+  <li>Shanghaino Board</li>
+  <li>RGB LED</li>
+  <li>HC-SR04 Ultrasonic Sensor</li>
+</ul>
+
+<p>Here is the code:</p>
+
+<div class="language-c highlighter-rouge"><pre class="highlight"><code><span class="cp">#include &lt;Ultrasonic.h&gt;
+</span>
+<span class="n">Ultrasonic</span> <span class="n">ultrasonic</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span><span class="mi">13</span><span class="p">);</span>
+<span class="kt">int</span> <span class="n">LED_R</span> <span class="o">=</span> <span class="mi">11</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">LED_G</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">LED_B</span> <span class="o">=</span>  <span class="mi">9</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">dis_max</span> <span class="o">=</span> <span class="mi">45</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">t</span> <span class="o">=</span> <span class="n">dis_max</span><span class="o">/</span><span class="mi">3</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">dis</span><span class="p">;</span>
+
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="n">LED_R</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="n">LED_G</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+  <span class="n">pinMode</span><span class="p">(</span><span class="n">LED_B</span><span class="p">,</span> <span class="n">OUTPUT</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="c1">// main code here, to run repeatedly:
+</span>  <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">ultrasonic</span><span class="p">.</span><span class="n">Ranging</span><span class="p">(</span><span class="n">CM</span><span class="p">));</span> <span class="c1">// CM or INC
+</span>  <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">" cm"</span> <span class="p">);</span>
+  <span class="n">dis</span> <span class="o">=</span> <span class="n">ultrasonic</span><span class="p">.</span><span class="n">Ranging</span><span class="p">(</span><span class="n">CM</span><span class="p">);</span>
+  <span class="c1">// red to orange to yellow to green
+</span>  <span class="k">if</span><span class="p">(</span><span class="n">dis</span> <span class="o">&gt;=</span> <span class="n">dis_max</span><span class="o">*</span><span class="mi">2</span><span class="o">/</span><span class="mi">3</span> <span class="o">&amp;&amp;</span> <span class="n">dis</span> <span class="o">&lt;</span> <span class="mi">45</span><span class="p">){</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_B</span><span class="p">,</span> <span class="mi">255</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="n">dis</span><span class="o">-</span><span class="mi">2</span><span class="o">*</span><span class="n">t</span><span class="p">)</span><span class="o">/</span><span class="n">t</span><span class="p">));</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_R</span><span class="p">,</span> <span class="mi">255</span><span class="o">*</span><span class="p">(</span><span class="n">dis</span><span class="o">-</span><span class="mi">2</span><span class="o">*</span><span class="n">t</span><span class="p">)</span><span class="o">/</span><span class="n">t</span><span class="p">);</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_G</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="c1">// green to indigo to blue
+</span>  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">dis</span> <span class="o">&gt;=</span> <span class="n">dis_max</span><span class="o">*</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span> <span class="o">&amp;&amp;</span> <span class="n">dis</span> <span class="o">&lt;</span> <span class="n">dis_max</span><span class="o">*</span><span class="mi">2</span><span class="o">/</span><span class="mi">3</span><span class="p">){</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_G</span><span class="p">,</span> <span class="mi">255</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="p">(</span><span class="n">dis</span><span class="o">-</span><span class="n">t</span><span class="p">)</span><span class="o">/</span><span class="n">t</span><span class="p">));</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_B</span><span class="p">,</span> <span class="mi">255</span><span class="o">*</span><span class="p">(</span><span class="n">dis</span><span class="o">-</span><span class="n">t</span><span class="p">)</span><span class="o">/</span><span class="n">t</span><span class="p">);</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_R</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="c1">// blue to purple to red
+</span>  <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="n">dis</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="n">dis</span> <span class="o">&lt;</span> <span class="n">dis_max</span><span class="o">*</span><span class="mi">1</span><span class="o">/</span><span class="mi">3</span><span class="p">){</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_R</span><span class="p">,</span> <span class="mi">255</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="n">dis</span><span class="o">/</span><span class="n">t</span><span class="p">));</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_G</span><span class="p">,</span> <span class="mi">255</span><span class="o">*</span><span class="n">dis</span><span class="o">/</span><span class="n">t</span><span class="p">);</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_B</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">else</span><span class="p">{</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_R</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_G</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+     <span class="n">analogWrite</span><span class="p">(</span><span class="n">LED_B</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>A demo video here:</p>
+<video width="480" align="center" border="1" height="320" preload="auto" controls="">
+		<source src="http://oxygvbxux.bkt.clouddn.com/USRGB.m4v" />
+	</video>
+
+  </section>
+</article>
+
+<section class="read-more">
+   
+   
+   
+   
+   <div class="read-more-item">
+       <span class="read-more-item-dim">更早的文章</span>
+       <h2 class="post-list__post-title post-title"><a href="/2017/11/Fablab_X_Document_-6/" title="link to FABO X Document 6">FABO X Document 6</a></h2>
+       <p class="excerpt">SolderingExercise: Solder Our Own Shanghaino BoardA part list of Shanghaino  PCB made in last course.  ATMEGA328 * 1  Socket * 1  CRYSTAL * 1  CAP 22pF * 2  CAP 0.1uF * 3  CAP 10uF * 1  RES 10kOhm * 1  RES 220Ohm * 2  Green LED * 1  Red LED * 1  P...&hellip;</p>
+       <div class="post-list__meta"><time datetime="2017-11-11 11:11:11 +0800" class="post-list__meta--date date">2017-11-11</time> &#8226; <span class="post-list__meta--tags tags">FABO-X</span><a class="btn-border-small" href=/2017/11/Fablab_X_Document_-6/>继续阅读</a></div>
+   </div>
+   
+</section>
+
+<section class="post-comments">
+  
+    <div id="disqus_thread"></div>
+    <script>
+    
+    var disqus_config = function () {
+        this.page.url = "http://localhost:4000/2017/11/Fablab_X_Document_-7/";
+        this.page.identifier = "/2017/11/Fablab_X_Document_-7/";
+    };
+
+    var disqus_shortname = 'khaoszen';
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>要查看<a href="http://disqus.com/?ref_noscript"> Disqus </a>评论，请启用 JavaScript</noscript>
+    
+  
+  
+  
+  
+</section>
+
+
+            <section class="footer">
+    <footer>
+    	<span class="footer__copyright">本站点采用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a></span>
+        <span class="footer__copyright">由 <a href="https://jekyllrb.com">Jekyll</a> 于 2017-12-01 生成</span>
+        <span class="footer__copyright">本站由 <a href="https://github.com/khaoszen">@KhaosZen</a> 创建，采用 <a href="weibo.com/onevcat">@onevcat</a>制作的<a href="https://github.com/onevcat/vno-jekyll">Vno - Jekyll</a> 作为主题，您可以在 GitHub 找到<a href="https://github.com/onevcat/OneV-s-Den">本站源码</a> - &copy; 2017</span>
+    </footer>
+</section>
+
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+
+    
+  </body>
+
+</html>
