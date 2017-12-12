@@ -481,6 +481,7 @@ void ClickButton(int PW,int i){
 
 ### Development log
 #### Functions Realization
+##### Out-of-box Functions
 + ~~Time display~~
 + ~~Date display~~
 + ~~Weekday display~~
@@ -488,10 +489,23 @@ void ClickButton(int PW,int i){
 + ~~Music play with buttons~~
 + ~~Alarm play~~
 + ~~Temperature display~~
-+ ~~Alarm turn off by one button~~
++ Alarm turn off by one button
 + Alarm turn off by the password
 + Alarm setup by buttons
 + Alarm password setup
+
+##### In-box Functions
++ ~~Time display~~
++ ~~Date display~~
++ ~~Weekday display~~
++ ~~LCD brightness adjustment~~
++ Music play with buttons
++ Alarm play(need to disassemble the top board to connect to the computer to overwrite the code)
++ ~~Temperature display~~
++ Alarm turn off by one button
++ Alarm turn off by the password
++ Alarm setup by buttons
++ Alarm password setup 
 
 #### Prototype Test
 I tested the prototype and find something wrong with the code. It can play 4 notes very well but the change of the modes and the setting of the alarm doesn't work pretty well.
