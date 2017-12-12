@@ -49,6 +49,7 @@ The Password Alarm Clock is an interesting alarm clock which need to input the c
 - 1 hole for the power cable.
 
 ### Arduino Code
+#### The code on development:
 ``` c
 #include <SPI.h>
 #include <DS3231.h>
@@ -337,9 +338,148 @@ void ClickButton(int PW,int i){
     noTone(spkr);
   }
 }
+``` 
+
+  
+#### The code used to demo:
+
+```c
+#include <SPI.h>
+#include <DS3231.h>
+#include <Wire.h>
+#include <LiquidCrystal.h>
+#include "pitches.h"
+
+LiquidCrystal lcd(9);
+DS3231  rtc(SDA, SCL);
+Time  t;
+
+int Alarm[] = {0,1,2,3}; // A default alarm order
+int pwRecord[] = {-1,-1,-1,-1};
+
+int Hor;
+int Min;
+int Sec;
+
+int modeFlag;
+int pwFlag;
+
+int spkr = 10;
+int Al; //A state variable to describe which the alarm is on or off
+int AlHor = 7; // The Hour time of the alarm
+int AlMin = 0; // The Minute time of the alarm
+
+int button_0 = 2;
+int button_1 = 3;
+int button_2 = 4;
+int button_3 = 5;
+int button_Mode = 6;
+int button_Next = 7;
+
+String weekdays[] = {"","MON","TUE","WED","THU","FRI","SAT","SUN"};
+int tones[] = { NOTE_C5, NOTE_D5, NOTE_E5, NOTE_G5}; //freq
+int Mode = 0;
+int Cur_tone = 0;
+
+void setup() {
+  Wire.begin();
+  rtc.begin();
+  Serial.begin(9600);
+
+  pinMode(button_0, INPUT);
+  pinMode(button_1, INPUT);
+  pinMode(button_2, INPUT);
+  pinMode(button_3, INPUT);
+  pinMode(button_Mode, INPUT);
+  pinMode(button_Next, INPUT);
+  pinMode(spkr, OUTPUT);
+  Al = 1;
+  Mode = 0;
+  
+  // set up the LCD's number of columns and rows: 
+  lcd.begin(16, 2);
+  lcd.setCursor(0,0);
+  lcd.print("KhaosZen's");
+  lcd.setCursor(0,1);
+  lcd.print("Instru Alarm");
+  
+  // The following lines can be uncommented to set the date and time
+  //rtc.setDOW(TUESDAY);     // Set Day-of-Week to SUNDAY
+  //rtc.setTime(15, 8, 0);     // Set the time to 12:00:00 (24hr format)
+  //rtc.setDate(5, 12, 2017);   // Set the date to January 1st, 2014
+  delay(2000);
+  lcd.clear();
+}
+
+void loop() { 
+   if(Mode == 0){
+    Cur_tone = 0;
+    t = rtc.getTime();
+    Hor = t.hour;
+    Min = t.min;
+    Sec = t.sec;
+    
+    lcd.setCursor(0,0);
+    lcd.print(rtc.getTimeStr());
+    lcd.print(" ");
+    lcd.print(rtc.getTemp());
+    lcd.print(" C");
+    lcd.setCursor(0,1);
+    lcd.print(rtc.getDateStr());
+    lcd.print("   ");
+    lcd.print(weekdays[t.dow]);
+    ClickButton(0,0);
+   }
+
+  //Comparing the current time with the Alarm time and if it is the time to alarm, ring the alarm for 2 minutes
+   if(Al == 1 && Hor == AlHor &&  Min == AlMin && Sec <= 30){
+     Play();  
+     Play();
+     lcd.clear();
+     lcd.print("Alarm ON");
+     lcd.setCursor(0,1);
+     lcd.print("Alarming");
+     Play();
+     Play();
+     if(digitalRead(button_Next)==HIGH){
+      Serial.println("next");
+      Al = 0;
+     }
+   }
+}
+
+void Play(){
+  for (int i = 0; i <= 3; i++){
+    tone(spkr,tones[Alarm[i]]);
+    delay(900);
+  }
+}
+
+void ClickButton(int PW,int i){
+  if(digitalRead(button_0) == 1){
+    Serial.println(0);
+    tone(spkr, tones[0]);
+    delay(120);
+  }else if(digitalRead(button_1) == 1){
+    Serial.println(1);
+    tone(spkr, tones[1]);
+    delay(120);
+  }else if(digitalRead(button_2) == 1){
+    Serial.println(2);
+    tone(spkr, tones[2]);
+    delay(120);
+  }else if(digitalRead(button_3) == 1){
+    Serial.println(3);
+    tone(spkr, tones[3]);
+    delay(120);
+  }else{
+    Serial.println("no");
+    noTone(spkr);
+  }
+}
 ```
 
-###Development log
+### Development log
 #### Functions Realization
 + ~~Time display~~
 + ~~Date display~~
