@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【翻译】Metal Gear Solid 2: Sons of Liberty剧本翻译[8.22更新至背景故事2]
+title: 【翻译】Metal Gear Solid 2: Sons of Liberty剧本翻译（8.22更新至背景故事2）
 date: 2018-8-22 11:11:11.000000000 +08:00
 tags: 游戏
 ---
