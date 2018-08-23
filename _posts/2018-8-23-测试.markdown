@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 测试
+title: Metal Gear Solid 2 剧本翻译
 date: 2018-8-22 11:11:11.000000000 +08:00
 tags: GameAnalysis
 ---
