@@ -109,21 +109,21 @@ tags: GameAnalysis
 
 ## 注释
 
-- 1:  https://en.wikipedia.org/wiki/Metal_Gear	"Metal Gear"
-- 2: https://en.wikipedia.org/wiki/Metal_Gear_2:_Solid_Snake	"Metal Gear 2"
-- 3: https://en.wikipedia.org/wiki/Metal_Gear_Solid	"Metal Gear Solid"
-- 4: https://en.wikipedia.org/wiki/Metal_Gear_Solid_2:_Sons_of_Liberty	"Metal Gear Solid 2: Sons of Liberty"
-- 5: http://metalgear.wikia.com/wiki/Olga_Gurlukovich	"Olga"
-- 6: http://metalgear.wikia.com/wiki/Vamp	"Vamp"
-- 7: https://en.wikipedia.org/wiki/Solid_Snake	"Solid Snake"
-- 8: http://metalgear.wikia.com/wiki/Dead_Cell	"Dead Cell"
-- 9: http://metalgear.wikia.com/wiki/Hal_Emmerich	"Otacon"
-- 10: https://en.wikipedia.org/wiki/Solid_Snake	"Pliskin"
-- 11: http://metalgear.wikia.com/wiki/Emma_Emmerich	"Emma Emmerich"
-- 12: http://metalgear.wikia.com/wiki/Colonel_(AI)	"Colonel"
-- 13: http://metalgear.wikia.com/wiki/Outer_Heaven	"Outer Heaven"
-- 14: http://metalgear.wikia.com/wiki/FOXHOUND	"FOXHOUND"
-- 15: http://metalgear.wikia.com/wiki/Big_Boss	"Big Boss"
-- 16: http://metalgear.wikia.com/wiki/Gray_Fox	"Gray Fox"
-- 17: http://metalgear.wikia.com/wiki/Kyle_Schneider	"Schneider"
-- 18: http://metalgear.wikia.com/wiki/Roy_Campbell	"Roy Campbell"
+[1] [Metal Gear](https://en.wikipedia.org/wiki/Metal_Gear)
+[2] [Metal Gear 2](https://en.wikipedia.org/wiki/Metal_Gear_2:_Solid_Snake)
+[3] [Metal Gear Solid](https://en.wikipedia.org/wiki/Metal_Gear_Solid)
+[4] [Metal Gear Solid 2: Sons of Liberty](https://en.wikipedia.org/wiki/Metal_Gear_Solid_2:_Sons_of_Liberty)
+[5] [Olga](http://metalgear.wikia.com/wiki/Olga_Gurlukovich)
+[6] [Vamp](http://metalgear.wikia.com/wiki/Vamp)
+[7] [Solid Snake](https://en.wikipedia.org/wiki/Solid_Snake)
+[8] [Dead Cell](http://metalgear.wikia.com/wiki/Dead_Cell)
+[9] [Otacon](http://metalgear.wikia.com/wiki/Hal_Emmerich)
+[10] [Pliskin](https://en.wikipedia.org/wiki/Solid_Snake)
+[11] [Emma Emmerich](http://metalgear.wikia.com/wiki/Emma_Emmerich)
+[12] [Colonel](http://metalgear.wikia.com/wiki/Colonel_(AI))
+[13] [Outer Heaven](http://metalgear.wikia.com/wiki/Outer_Heaven)
+[14] [FOXHOUND](http://metalgear.wikia.com/wiki/FOXHOUND)
+[15] [Big Boss](http://metalgear.wikia.com/wiki/Big_Boss)
+[16] [Gray Fox](http://metalgear.wikia.com/wiki/Gray_Fox)
+[17] [Schneider](http://metalgear.wikia.com/wiki/Kyle_Schneider)
+[18] [Roy Campbell](http://metalgear.wikia.com/wiki/Roy_Campbell)
