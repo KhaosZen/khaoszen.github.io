@@ -17,6 +17,8 @@ tags: GameAnalysis
 
 本作中包含了相当数量的无线电对话，这也是小岛秀夫的哲学讨论的重中之重。我之所以想要翻译这份剧本就是因为这些哲学讨论在当今任然有其现实意义，也希望通过翻译能够了解更多。当然，这个剧本的文本量也十分巨大，所以翻译也必然是一个长线工作，希望10年以后我能把它翻译完吧:D
 
+原文地址：[Metal Gear Solid 2: Sons of Liberty - Game Script](http://www.ign.com/faqs/2005/metal-gear-solid-2-son-of-liberty-premium-package-game-script-538904)
+
 ## 目录
 
 ### 背景故事
